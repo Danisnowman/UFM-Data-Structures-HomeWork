@@ -40,7 +40,7 @@ TestSuite *our_tests() {
 int main(){
     
     
-    //return run_test_suite(our_tests(), create_text_reporter());
+    return run_test_suite(our_tests(), create_text_reporter());
     //stackFree(&stack);
     exit(0);
 }
