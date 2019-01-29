@@ -9,7 +9,6 @@
 #ifndef commonFunctions_h
 #define commonFunctions_h
 #define maxLength 256                        //"maxLength" is used to read strings with a maximun total of letters which is it's length (80).
-#define SIZEOF_ARRAY( arr ) sizeof( arr ) / sizeof( arr[0] )
 #include <stdio.h>
 #include <stdbool.h>
 

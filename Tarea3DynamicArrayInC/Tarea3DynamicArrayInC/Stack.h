@@ -51,7 +51,7 @@ void stackAppend(Stack *stack, int value){
 
 int stackGet(Stack *stack, int index){
     if (index >= stack->size || index < 0) {
-        printf("Index %d out of bounds for vector of size %d\n", index, stack->size);
+        printf("Index %d out of bounds for stack of size %d\n", index, stack->size);
         exit(1);
     }
     return stack->data[index];

@@ -11,6 +11,18 @@
 #include "commonFunctions.h"
 #include "Stack.h"
 
+
+
+
 int main(){
-    
+    Stack stack;
+    stackInit(&stack);
+    for (int i = -5; i<100; i++) {
+        stackAppend(&stack, rand() % 53);
+    }
+    for (int j = 0; j <= stack.capacity; j++) {
+        printf("Heres the value at %d: %d\n",j , stackGet(&stack, j));
+    }
+    stackFree(&stack);
+    exit(0);
 }
