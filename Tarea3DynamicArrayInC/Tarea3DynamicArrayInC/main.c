@@ -20,9 +20,10 @@ int main(){
     for (int i = -5; i<100; i++) {
         stackAppend(&stack, rand() % 53);
     }
-    for (int j = 0; j <= stack.capacity; j++) {
+    for (int j = 0; j < stack.capacity; j++) {
         printf("Heres the value at %d: %d\n",j , stackGet(&stack, j));
     }
+    printf(<#const char *restrict, ...#>)
     stackFree(&stack);
     exit(0);
 }

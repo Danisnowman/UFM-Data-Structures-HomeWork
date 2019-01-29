@@ -11,7 +11,7 @@
 #define StackInitialCapacity 1
 
 
-// Define a vector type
+// Define a stack type
 typedef struct {
     int size;      // slots used so far
     int capacity;  // total available slots
