@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea4Debits&amp;CreditsInC/Tarea4Debits&amp;CreditsInC/classAccount.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea4Debits&amp;CreditsInC/Tarea4Debits&amp;CreditsInC/account.h">
+   </FileRef>
+   <FileRef
+      location = "self:Tarea4Debits&amp;CreditsInC.xcodeproj">
+   </FileRef>
+</Workspace>
