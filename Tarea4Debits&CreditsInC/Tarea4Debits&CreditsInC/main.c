@@ -18,7 +18,8 @@ int main() {
     entryInit(&debits, debitMax);
     srand(time(NULL)%14);
     for (int i = 0; i<debitMax; i++) {
-        entryAdd(&debits, (1+(rand()%10)));
+        entryAdd(&debits, (1+(rand()%9)));
+        printf("%d: %d\n",i,debits.data[i]);
 
     }
     entryPrint(&debits);

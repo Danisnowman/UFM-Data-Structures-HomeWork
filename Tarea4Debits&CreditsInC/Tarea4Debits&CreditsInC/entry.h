@@ -55,7 +55,7 @@ void entryAdd(Entry *entry, int value){
 // recibe un array
 void entryMoveElements(Entry *entry){
     // este for va a iterar en el array que recibe la cantidad de veces el tamaño del array
-    for (int i = 0; i < entry->capacity; i++) {
+    for (int i = 0; i < entry->capacity-1; i++) {
         if (!entry->data[i]) {
             entry->data[i] = entry->data[i+1];
             entry->data[i+1] = 0;
