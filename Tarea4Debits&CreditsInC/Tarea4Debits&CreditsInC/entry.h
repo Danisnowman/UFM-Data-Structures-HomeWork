@@ -24,6 +24,9 @@ bool entryCheckIfEmpty(Entry *entry, int positionBeingChcked);
 void entryAdd(Entry *entry, int value);
 void entryMoveElements(Entry *entry);
 void entryRemove(Entry *entry, int position);
+int entryAddUp(Entry *entry, int entrySize);
+
+
 void entryFree(Entry *entry);
 void entryPrint(Entry *entry);
 
@@ -49,18 +52,33 @@ void entryAdd(Entry *entry, int value){
     entry->size++;
 }
 
+// recibe un array
 void entryMoveElements(Entry *entry){
-    for (int currentPosition = 0; currentPosition < entry->size-1; currentPosition++) {
-        if (!entry->data[currentPosition]) {
-            entry->data[currentPosition] = entry->data[currentPosition+1];
-            entry->data[currentPosition+1] = 0;
+    // este for va a iterar en el array que recibe la cantidad de veces el tamaño del array
+    for (int i = 0; i < entry->capacity; i++) {
+        if (!entry->data[i]) {
+            entry->data[i] = entry->data[i+1];
+            entry->data[i+1] = 0;
         }
     }
 }
 
 void entryRemove(Entry *entry, int position){
-    entry->data[position] = 0;
+    entry->data[position-1] = 0;
+    //entryMoveElements(entry);
 }
+
+int entryAddUp(Entry *entry,int entrySize){
+    int total = 0;
+    for (int i = 0; i<entrySize; i++) {
+        total += entry->data[i];
+    }
+    return total;
+}
+
+
+
+
 
 void entryFree(Entry *entry){
     free(entry->data);
@@ -68,7 +86,7 @@ void entryFree(Entry *entry){
 
 void entryPrint(Entry *entry){
     for (int i = 0; i<entry->size; i++) {
-        printf("%d. { %d }\n",i+1,entry->data[i]);
+        printf("%d.{ %d }\n",i+1,entry->data[i]);
         
     }
     printf("\n");
