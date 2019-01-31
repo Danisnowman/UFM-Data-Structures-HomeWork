@@ -19,7 +19,7 @@ int main() {
     srand(time(NULL)%14);
     for (int i = 0; i<debitMax; i++) {
         entryAdd(&debits, (1+(rand()%9)));
-        printf("%d: %d\n",i,debits.data[i]);
+       // printf("%d: %d\n",i,debits.data[i]);
 
     }
     entryPrint(&debits);
@@ -49,6 +49,7 @@ int main() {
    
     
     entryFree(&debits);
+    
     return 0;
 }
 
