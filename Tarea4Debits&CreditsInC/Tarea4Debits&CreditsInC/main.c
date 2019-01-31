@@ -9,14 +9,22 @@
 #include <stdio.h>
 #include <time.h>
 #include "entry.h"
+int debitMax = 10;
 
 int main() {
-    Entry debits;
-    entryInit(&debits, 4);
+    Entry debits, credits;
+    entryInit(&debits, debitMax);
     srand(time(NULL)%14);
-    for (int i = 0; i<4; i++) {
-        entryAdd(&debits, (rand()%10));
+    for (int i = 0; i<debitMax; i++) {
+        entryAdd(&debits, (1+(rand()%9)));
+    
     }
+    entryPrint(&debits);
+    
+    entryRemove(&debits, 2);
+    entryPrint(&debits);
+    
+    entryMoveElements(&debits);
     entryPrint(&debits);
     
     

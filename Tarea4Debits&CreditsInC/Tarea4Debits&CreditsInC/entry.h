@@ -22,7 +22,7 @@ typedef struct {
 void entryInit(Entry *entry, int capacity);
 bool entryCheckIfEmpty(Entry *entry, int positionBeingChcked);
 void entryAdd(Entry *entry, int value);
-void entryMoveElements(Entry *entry, int positionsToMove);
+void entryMoveElements(Entry *entry);
 void entryRemove(Entry *entry, int position);
 void entryFree(Entry *entry);
 void entryPrint(Entry *entry);
@@ -49,12 +49,17 @@ void entryAdd(Entry *entry, int value){
     entry->size++;
 }
 
-void entryMoveElements(Entry *entry, int positionsToMove){
+void entryMoveElements(Entry *entry){
     for (int currentPosition = 0; currentPosition < entry->size-1; currentPosition++) {
         if (!entry->data[currentPosition]) {
             entry->data[currentPosition] = entry->data[currentPosition+1];
+            entry->data[currentPosition+1] = 0;
         }
     }
+}
+
+void entryRemove(Entry *entry, int position){
+    entry->data[position] = 0;
 }
 
 void entryFree(Entry *entry){
@@ -62,10 +67,11 @@ void entryFree(Entry *entry){
 }
 
 void entryPrint(Entry *entry){
-    for (int i = 0; i<4; i++) {
+    for (int i = 0; i<entry->size; i++) {
         printf("%d. { %d }\n",i+1,entry->data[i]);
         
     }
+    printf("\n");
 }
 
 
