@@ -1,22 +1,6 @@
 import operator
 
 
-# class Main:
-#    def __init__(self, text, filename, txt_file):
-#        self.count = 0
-#        self.text = text
-#        self.filename = filename
-#        self.txt_file = txt_file
-
-# def count_a_letter(text, letter):
-#    count = 0
-#   for c in text:
-#        count += (c == letter)
-#    return count
-
-# fileToRead = open("test.txt")
-# print("A: {0}".format(str(count_a_letter(fileToRead.read(), "a"))))
-
 def count_letters(filename):
     letters = {}
     for n in filename:
@@ -39,3 +23,19 @@ def read_and_sort(txt_file):
 
 
 read_and_sort('test.txt')
+
+# class Main:
+#    def __init__(self, text, filename, txt_file):
+#        self.count = 0
+#        self.text = text
+#        self.filename = filename
+#        self.txt_file = txt_file
+
+# def count_a_letter(text, letter):
+#    count = 0
+#   for c in text:
+#        count += (c == letter)
+#    return count
+
+# fileToRead = open("test.txt")
+# print("A: {0}".format(str(count_a_letter(fileToRead.read(), "a"))))
