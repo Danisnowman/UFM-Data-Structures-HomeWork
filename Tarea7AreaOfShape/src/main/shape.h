@@ -6,6 +6,7 @@
 #define TAREA7AREAOFSHAPE_SHAPE_H
 
 typedef union Shape{
+    int shapeSelection;     // 1 == triangle, 2 == rectangle, 3 == circle
     double area;
 }Shape;
 
@@ -16,7 +17,9 @@ typedef struct Triangle{
     double catetoC;
 }Triangle;
 
-double calcularArea(Triangle *triangle);
+void initShape(Triangle *shape);
+Triangle pedirLados(Triangle *triangle);
+void calcularArea(Triangle *triangle);
 
 
 #endif //TAREA7AREAOFSHAPE_SHAPE_H

@@ -3,7 +3,8 @@
 
 int main() {
     Triangle triangle;
-    double area = calcularArea(&triangle);
+    initShape(&triangle);
+    calcularArea(pedirLados(&triangle));
     printf("Area: %.2lf", area);
     return 0;
 }
