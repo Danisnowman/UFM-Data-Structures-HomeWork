@@ -12,12 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab9a5277-c65a-4b00-80d7-be835c521904" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Tarea7Coordinates/.idea/Tarea7Coordinates.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tarea7Coordinates/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tarea7Coordinates/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tarea7Coordinates/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tarea7Coordinates/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tarea7Coordinates/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tarea7Coordinates/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tarea7Coordinates/src/main/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tarea7Coordinates/src/main/point.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tarea7Coordinates/src/main/point.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tarea7AreaOfShape.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tarea7AreaOfShape.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tarea7AreaOfShape.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tarea7AreaOfShape.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tarea7AreaOfShape.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tarea7AreaOfShape.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tarea7AreaOfShape" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Tarea7AreaOfShape" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +36,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/main.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="207">
-                  <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+                  <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -60,11 +65,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="115">
-                  <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+                  <caret line="5" column="136" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="136" />
                 </state>
               </provider>
             </entry>
@@ -190,21 +195,21 @@
       <workItem from="1549760159224" duration="154000" />
       <workItem from="1549760328805" duration="248000" />
       <workItem from="1549760590719" duration="42000" />
-      <workItem from="1549760646071" duration="13636000" />
+      <workItem from="1549760646071" duration="15104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14080000" />
+    <option name="totallyTimeSpent" value="15548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26783812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26783812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="CPU Profiler" sideWeight="0.49946752" weight="0.32944345" />
+      <window_info anchor="bottom" id="CPU Profiler" sideWeight="0.49946752" visible="true" weight="0.32944345" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944345" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27672955" />
@@ -272,20 +277,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="136" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="136" />
         </state>
       </provider>
     </entry>
