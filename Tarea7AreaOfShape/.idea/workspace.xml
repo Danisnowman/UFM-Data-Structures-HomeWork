@@ -11,12 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab9a5277-c65a-4b00-80d7-be835c521904" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/shape.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/shape.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tarea6CountLettersInPy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tarea6CountLettersInPy/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ab9a5277-c65a-4b00-80d7-be835c521904" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,12 +157,12 @@
       <workItem from="1549760159224" duration="154000" />
       <workItem from="1549760328805" duration="248000" />
       <workItem from="1549760590719" duration="42000" />
-      <workItem from="1549760646071" duration="5172000" />
+      <workItem from="1549760646071" duration="5465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5616000" />
+    <option name="totallyTimeSpent" value="5909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
