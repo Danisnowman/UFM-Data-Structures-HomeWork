@@ -6,25 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/commonFunctions.h
-stdio.h
--
-stdbool.h
--
-
 /Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/main.c
 stdio.h
 -
 shape.h
 /Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/shape.h
-
-/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/shape.c
-shape.h
-/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/shape.h
-commonFunctions.h
-/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/commonFunctions.h
-math.h
--
 
 /Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/shape.h
 

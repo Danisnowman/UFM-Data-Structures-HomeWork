@@ -7,5 +7,4 @@ int main() {
     pedirLados(&triangle);
     calcularArea(&triangle);
     printArea(&triangle);
-    return 0;
 }
