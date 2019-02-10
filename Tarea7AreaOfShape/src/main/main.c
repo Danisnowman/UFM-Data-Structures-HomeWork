@@ -2,9 +2,10 @@
 #include "shape.h"
 
 int main() {
-    Triangle triangle;
+    AmorhpusShape triangle;
     initShape(&triangle);
-    calcularArea(pedirLados(&triangle));
-    printf("Area: %.2lf", area);
+    pedirLados(&triangle);
+    calcularArea(&triangle);
+    printArea(&triangle);
     return 0;
 }

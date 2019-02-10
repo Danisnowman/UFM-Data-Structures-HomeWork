@@ -123,6 +123,33 @@ Tarea7AreaOfShape/fast:
 	$(MAKE) -f CMakeFiles/Tarea7AreaOfShape.dir/build.make CMakeFiles/Tarea7AreaOfShape.dir/build
 .PHONY : Tarea7AreaOfShape/fast
 
+src/main/commonFunctions.o: src/main/commonFunctions.c.o
+
+.PHONY : src/main/commonFunctions.o
+
+# target to build an object file
+src/main/commonFunctions.c.o:
+	$(MAKE) -f CMakeFiles/Tarea7AreaOfShape.dir/build.make CMakeFiles/Tarea7AreaOfShape.dir/src/main/commonFunctions.c.o
+.PHONY : src/main/commonFunctions.c.o
+
+src/main/commonFunctions.i: src/main/commonFunctions.c.i
+
+.PHONY : src/main/commonFunctions.i
+
+# target to preprocess a source file
+src/main/commonFunctions.c.i:
+	$(MAKE) -f CMakeFiles/Tarea7AreaOfShape.dir/build.make CMakeFiles/Tarea7AreaOfShape.dir/src/main/commonFunctions.c.i
+.PHONY : src/main/commonFunctions.c.i
+
+src/main/commonFunctions.s: src/main/commonFunctions.c.s
+
+.PHONY : src/main/commonFunctions.s
+
+# target to generate assembly for a file
+src/main/commonFunctions.c.s:
+	$(MAKE) -f CMakeFiles/Tarea7AreaOfShape.dir/build.make CMakeFiles/Tarea7AreaOfShape.dir/src/main/commonFunctions.c.s
+.PHONY : src/main/commonFunctions.c.s
+
 src/main/main.o: src/main/main.c.o
 
 .PHONY : src/main/main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Tarea7AreaOfShape"
+	@echo "... src/main/commonFunctions.o"
+	@echo "... src/main/commonFunctions.i"
+	@echo "... src/main/commonFunctions.s"
 	@echo "... src/main/main.o"
 	@echo "... src/main/main.i"
 	@echo "... src/main/main.s"

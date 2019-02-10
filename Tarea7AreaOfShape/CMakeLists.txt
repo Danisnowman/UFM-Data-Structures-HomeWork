@@ -3,4 +3,4 @@ project(Tarea7AreaOfShape C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Tarea7AreaOfShape src/main/main.c src/main/shape.c src/main/shape.h)
+add_executable(Tarea7AreaOfShape src/main/main.c src/main/shape.c src/main/shape.h src/main/commonFunctions.c src/main/commonFunctions.h)

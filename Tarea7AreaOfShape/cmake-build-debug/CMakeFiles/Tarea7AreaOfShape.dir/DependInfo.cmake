@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/commonFunctions.c" "/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/cmake-build-debug/CMakeFiles/Tarea7AreaOfShape.dir/src/main/commonFunctions.c.o"
   "/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/main.c" "/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/cmake-build-debug/CMakeFiles/Tarea7AreaOfShape.dir/src/main/main.c.o"
   "/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/shape.c" "/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/cmake-build-debug/CMakeFiles/Tarea7AreaOfShape.dir/src/main/shape.c.o"
   )

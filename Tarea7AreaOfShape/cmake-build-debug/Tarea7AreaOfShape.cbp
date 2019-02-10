@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/commonFunctions.c">
+			<Option target="Tarea7AreaOfShape"/>
+		</Unit>
+		<Unit filename="/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/commonFunctions.h">
+			<Option target="Tarea7AreaOfShape"/>
+		</Unit>
 		<Unit filename="/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/main.c">
 			<Option target="Tarea7AreaOfShape"/>
 		</Unit>

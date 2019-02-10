@@ -7,33 +7,57 @@
 #include <math.h>
 
 
-void initShape(Triangle *shape){
-    shape->base.shapeSelection = askInt("Select a shape:\n1.Triangle\n2.Rectangle\n3.Rectangle",3);
+void initShape(AmorhpusShape *shape){
+    shape->base.shapeSelection = askInt("1.Triangle\n2.Rectangle\n3.Circle\n\nSelect a shape: ",3);
 }
 
-Triangle pedirLados(Triangle *triangle){
-    switch (triangle->base.shapeSelection){
+void pedirLados(AmorhpusShape *shape){
+    switch (shape->base.shapeSelection){
         case 1: // triangle
-            triangle->catetoA = fabs(askDouble("\nCateto A: ",maxLength));
-            triangle->catetoB = fabs(askDouble("Cateto B: ",maxLength));
-            triangle->catetoC = fabs(askDouble("Cateto C: ",maxLength));
+            shape->ladoUno = fabs(askDouble("\nCateto 1: ",maxLength));
+            shape->ladoDos = fabs(askDouble("Cateto 2: ",maxLength));
+            shape->ladoTres = fabs(askDouble("Cateto 3: ",maxLength));
             break;
         case 2: // rectangle
+            shape->ladoUno = fabs(askDouble("\nLado 1: ",maxLength));
+            shape->ladoDos = fabs(askDouble("\nLado 2: ",maxLength));
             break;
         case 3: // circle
+            shape->ladoUno = fabs(askDouble("\nRadio : ",maxLength));
             break;
         default:
             printf("Error, invalid selection.");
             break;
     }
-    return *triangle;
+    // return shape;
 }
 
-void calcularArea(Triangle *triangle){
-    double p = (triangle->catetoA + triangle->catetoB + triangle->catetoC)/2;
-    if (p < triangle->catetoC || p < triangle->catetoB || p < triangle->catetoA){
-        printf("\nError, impossible triangle!");
-    }else{
-        triangle->base.area = sqrt(p * (p-triangle->catetoA) * (p - triangle->catetoB) * (p - triangle->catetoC));
+void calcularArea(AmorhpusShape *shape){
+    double p = 0;
+    switch (shape->base.shapeSelection){
+        case 1: // Calculate triangle's area
+            p = (shape->ladoUno + shape->ladoDos + shape->ladoTres)/2;
+            if (p < shape->ladoTres || p < shape->ladoDos || p < shape->ladoUno){
+                printf("\nError, impossible triangle!");
+            }else{
+                shape->base.area = sqrt(p * (p-shape->ladoUno) * (p - shape->ladoDos) * (p - shape->ladoTres));
+            }
+            break;
+
+        case 2: // Calculate rectangle's area
+            shape->base.area = (shape->ladoUno * shape->ladoDos);
+            break;
+
+        case 3:
+            shape->base.area = (M_PI * pow(shape->ladoUno,2));
+            break;
+
+        default:
+            printf("Error, invalid selection.");
+            break;
     }
+}
+
+void printArea(AmorhpusShape *shape){
+    printf("The area of the geometric figure is %.2lf",shape->base.area);
 }

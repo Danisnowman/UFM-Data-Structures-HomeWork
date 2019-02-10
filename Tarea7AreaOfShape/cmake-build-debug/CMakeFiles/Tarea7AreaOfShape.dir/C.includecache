@@ -12,6 +12,12 @@ stdio.h
 stdbool.h
 -
 
+/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/main.c
+stdio.h
+-
+shape.h
+/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/shape.h
+
 /Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/shape.c
 shape.h
 /Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/shape.h

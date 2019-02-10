@@ -10,16 +10,16 @@ typedef union Shape{
     double area;
 }Shape;
 
-typedef struct Triangle{
+typedef struct AmorhpusShape{
     union Shape base;
-    double catetoA;
-    double catetoB;
-    double catetoC;
-}Triangle;
+    double ladoUno;
+    double ladoDos;
+    double ladoTres;
+}AmorhpusShape;
 
-void initShape(Triangle *shape);
-Triangle pedirLados(Triangle *triangle);
-void calcularArea(Triangle *triangle);
-
+void initShape(AmorhpusShape *shape);
+void pedirLados(AmorhpusShape *shape);
+void calcularArea(AmorhpusShape *shape);
+void printArea(AmorhpusShape *shape);
 
 #endif //TAREA7AREAOFSHAPE_SHAPE_H
