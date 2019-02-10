@@ -1,0 +1,3 @@
+/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/cmake-build-debug/CMakeFiles/Tarea7AreaOfShape.dir
