@@ -11,3 +11,6 @@ CMakeFiles/Tarea7AreaOfShape.dir/src/main/shape.c.o: ../src/main/commonFunctions
 CMakeFiles/Tarea7AreaOfShape.dir/src/main/shape.c.o: ../src/main/shape.c
 CMakeFiles/Tarea7AreaOfShape.dir/src/main/shape.c.o: ../src/main/shape.h
 
+CMakeFiles/Tarea7AreaOfShape.dir/src/test/tests.c.o: ../src/test/tests.c
+CMakeFiles/Tarea7AreaOfShape.dir/src/test/tests.c.o: ../src/test/tests.h
+

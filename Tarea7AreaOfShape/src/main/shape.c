@@ -29,7 +29,6 @@ void pedirLados(AmorhpusShape *shape){
             printf("Error, invalid selection.");
             break;
     }
-    // return shape;
 }
 
 void calcularArea(AmorhpusShape *shape){

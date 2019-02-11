@@ -204,6 +204,33 @@ src/main/shape.c.s:
 	$(MAKE) -f CMakeFiles/Tarea7AreaOfShape.dir/build.make CMakeFiles/Tarea7AreaOfShape.dir/src/main/shape.c.s
 .PHONY : src/main/shape.c.s
 
+src/test/tests.o: src/test/tests.c.o
+
+.PHONY : src/test/tests.o
+
+# target to build an object file
+src/test/tests.c.o:
+	$(MAKE) -f CMakeFiles/Tarea7AreaOfShape.dir/build.make CMakeFiles/Tarea7AreaOfShape.dir/src/test/tests.c.o
+.PHONY : src/test/tests.c.o
+
+src/test/tests.i: src/test/tests.c.i
+
+.PHONY : src/test/tests.i
+
+# target to preprocess a source file
+src/test/tests.c.i:
+	$(MAKE) -f CMakeFiles/Tarea7AreaOfShape.dir/build.make CMakeFiles/Tarea7AreaOfShape.dir/src/test/tests.c.i
+.PHONY : src/test/tests.c.i
+
+src/test/tests.s: src/test/tests.c.s
+
+.PHONY : src/test/tests.s
+
+# target to generate assembly for a file
+src/test/tests.c.s:
+	$(MAKE) -f CMakeFiles/Tarea7AreaOfShape.dir/build.make CMakeFiles/Tarea7AreaOfShape.dir/src/test/tests.c.s
+.PHONY : src/test/tests.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... src/main/shape.o"
 	@echo "... src/main/shape.i"
 	@echo "... src/main/shape.s"
+	@echo "... src/test/tests.o"
+	@echo "... src/test/tests.i"
+	@echo "... src/test/tests.s"
 .PHONY : help
 
 

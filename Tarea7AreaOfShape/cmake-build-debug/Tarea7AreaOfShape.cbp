@@ -44,6 +44,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
+					<Add directory="/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/test/googletest/googletest/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -64,6 +67,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
+					<Add directory="/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/test/googletest/googletest/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -91,6 +97,12 @@
 			<Option target="Tarea7AreaOfShape"/>
 		</Unit>
 		<Unit filename="/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/main/shape.h">
+			<Option target="Tarea7AreaOfShape"/>
+		</Unit>
+		<Unit filename="/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/test/tests.c">
+			<Option target="Tarea7AreaOfShape"/>
+		</Unit>
+		<Unit filename="/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/src/test/tests.h">
 			<Option target="Tarea7AreaOfShape"/>
 		</Unit>
 		<Unit filename="/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/DATA-STRUCTURES/Tarea7AreaOfShape/CMakeLists.txt">
