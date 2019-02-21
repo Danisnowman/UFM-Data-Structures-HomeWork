@@ -1,0 +1,78 @@
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{enumerate}
+\title{\textbf{Pomodoro}}
+\author{Daniel E. Hernández}
+\date{\the\year-\ifnum\month<10\relax0\fi\the\month-\ifnum\day<10\relax0\fi\the\day}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Este proyecto busca incrementar la productividad de los usuarios por medio del uso de la \emph{Técnica Pomodoro}. Dicha técnica se ve plasmada en la función principal de una aplicación. Dicha función es un temporizador de 25 minutos y una función secundaria es poder romper en \textit{tasks} las ideas del usuario y lo que él necesite hacer. 
+\end{abstract}
+
+\section{Descripción General}
+\subsection{Problema}
+\begin{enumerate}
+	\item \textbf{Al tener una tarea grande, es difícil subdividir:} Al momento de tener una tarea principal en mano, muchas veces es difícil lograr realizarla en el tiempo indicado dado que no se tiene una idea específica de cada sub-tarea o \textit{task} de qué hacer sino solo una idea abstracta general.
+	
+	\item \textbf{Tener muchas tareas dificulta la segmentación de tiempo:} Al momento de tener muchas tareas principales y un tiempo limitado, muchas veces es difícil segmentar dichas tareas en rangos de tiempo. Por ende, es difícil lograr terminar la tarea principal en el tiempo máximo dado para ella (\textit{o deadline}).
+
+	\item \textbf{Descansos irregulares = menos productividad y más cansancio:} Al no tener rangos de tiempo determinados para poder descasar mientras se está haciendo une tarea principal/sub-tarea resulta que en general se es menos productivo dado que al cansarse, se suele tomar descansos irregulares de amplia cantidad de tiempo.
+\end{enumerate}
+
+\section{Metas}
+\begin{enumerate}
+	\item \textbf{Al tener sub-tareas o \textit{tasks} es más fácil cumplir con ellas:} Se logran cumplir porque se tiene un idea específica de cada objetivo que se quiere lograr en vez de solo tener una visión abstracta general.
+	
+	\item \textbf{Completar la tarea principal en \textit{sprints} pequeños:} Se logra cumplir la tarea principal abstracta y general por medio de sprints donde el usuario eligió los tasks que quiere completar en el mismo. Cada sprint es de 25 minutos según lo recomendado por la \textit{Técnica Pomodoro}.
+	
+	\item \textbf{Descansos de un rango de tiempo establecido:} Al final de cada sprint el usuario descansa por 5 minutos o más según elija el usuario y al terminar su tiempo de descanso, inicia otro sprint. Al lograr esto maximiza su productividad porque sí está descansando y no son lapsos de descanso demasiado grandes.
+\end{enumerate}
+
+\section{Fuera del enfoque}
+\begin{enumerate}
+	\item \textbf{GUI y UX intuitivo:} Tener una interfaz gráfica intuitiva y autoexplicativa.
+	\item \textbf{GUI según lenguaje de diseño de plataforma:} Seguir el diseño sugerido por Apple para iOS y por Google para Android.
+\end{enumerate}
+
+\section{Personas y roles:}
+\begin{enumerate}
+	\item \textbf{Daniel Hernández \textit{(dev y ops)}:} Crear el proyecto, desarrollarlo, mantenerlo y publicarlo en el App Store. 
+	\item \textbf{Fernando José Boiton y Juan Luis López \textit{(QA)}:} Revisiones de entrega del proyecto.  
+\end{enumerate}
+\section{Contexto}
+\subsection{Casos de Uso}
+\subsubsection{El usuario quiere:}
+\begin{itemize}
+	\item \textbf{Ser más ordenado}
+	\subitem Quiere organizar sus ideas.
+	\item \textbf{Ser más eficiente}
+	\subitem Cumplir con los deadlines y aún antes.
+	\item \textbf{Descansar y no procrastinar}
+	\subitem Al tener rangos de tiempo determinados, no procrastina y sí descansa.
+\end{itemize}
+	
+\section{Propuesta}
+\subsection{Pomodoro App}
+\par Es una aplicación que busca incrementar la productividad y eficiencia del usuario por medio de la \textit{Técnica Pomodoro} al ayudarlo a organizar sus ideas y dividir mejor su tiempo.
+\subsection{User Experience}
+\begin{enumerate}
+	\item \textbf{Timer} de 25 minutos que cambia a 5 minutos una vez se acabe cada sprint.
+	\item \textbf{Botón:} de inicio donde comienza el timer.
+	\item \textbf{Text Input:} donde se puede cambiar el default time para dichos timers.
+\end{enumerate}
+\subsection{Trabajo a futuro:}
+\begin{enumerate}
+	\item \textbf{Mejor diseño:} Diseñar mockups de la interfaz gráfica.
+	\item \textbf{iOS App:} Desarrollar y publicar la primera versión de la aplicación.
+	\item \textbf{Pruebas de usuario:} Realizarlas para asegurar el uso intuitivo de la aplicación y corregir cualquier falla.
+\end{enumerate}
+\section{Tasks y Deadilines}
+\begin{enumerate}
+	\item \textbf{PRD:} 2019-02-28
+\end{enumerate}
+\end{document}

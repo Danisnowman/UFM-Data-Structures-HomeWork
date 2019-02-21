@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b19b5bcb-7224-4045-89cc-cdf7b94b130e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7AreaOfShape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tarea7AreaOfShape/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7AreaOfShape/src/main/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Tarea7AreaOfShape/src/main/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7Coordinates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tarea7Coordinates/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +75,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="Course" />
     </panes>
   </component>
@@ -100,6 +103,9 @@
       <module name="Tarea6CountLettersInPy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -163,6 +169,7 @@
       <workItem from="1549547022379" duration="238000" />
       <workItem from="1549551784231" duration="110000" />
       <workItem from="1549552026202" duration="556000" />
+      <workItem from="1550070778998" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Initial release">
       <created>1549409289078</created>
@@ -175,12 +182,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23586000" />
+    <option name="totallyTimeSpent" value="23602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1304" height="1200" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2163233" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21949287" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -222,17 +229,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="218" selection-start-column="218" selection-end-column="218" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="218" selection-start-column="218" selection-end-column="218" />
         </state>
       </provider>
     </entry>

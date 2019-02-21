@@ -19,6 +19,6 @@ int main() {
         printf("Error: Expected a number > 0 and got: %lf", shape.ladoTres);
     }
     calcularArea(&shape);
-    
+
     printArea(&shape);
 }
