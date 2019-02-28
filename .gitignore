@@ -298,3 +298,4 @@ DerivedData/
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 # End of https://www.gitignore.io/api/java,clion,xcode,pycharm,intellij
+Tarea7AreaOfShape/src/test/googletest/
