@@ -5,56 +5,25 @@
 #ifndef UNTITLED_QUEUE_H
 #define UNTITLED_QUEUE_H
 
-#include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include "worker.h"
 
-#define MAX 6
+int peek(struct Worker *array);
 
-int intArray[MAX];
-int front = 0;
-int rear = -1;
-int itemCount = 0;
+bool isEmpty(struct Worker *array);
 
-int peek() {
-    return intArray[front];
-}
+bool isFull(struct Worker *array);
 
-bool isEmpty() {
-    return !itemCount;
-}
+int size(struct Worker *array);
 
-bool isFull() {
-    return itemCount == MAX;
-}
+void insert(int SSN, char name[30], char entidad[30], int diasTrabajado, struct Worker *array);
 
-int size() {
-    return itemCount;
-}
+int removeData(struct Worker *array);
 
-void insert(int data) {
+void printIsEmpty(bool isEmpty);
 
-    if(!isFull()) {
-
-        if(rear == MAX-1) {
-            rear = -1;
-        }
-
-        intArray[++rear] = data;
-        itemCount++;
-    }
-}
-
-int removeData() {
-    int data = intArray[front++];
-
-    if(front == MAX) {
-        front = 0;
-    }
-
-    itemCount--;
-    return data;
-}
+void printQueue(struct Worker *array, int arrayEnd);
 
 #endif //UNTITLED_QUEUE_H

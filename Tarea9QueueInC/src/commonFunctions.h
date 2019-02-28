@@ -4,7 +4,7 @@
 
 #ifndef TAREA7AREAOFSHAPE_COMMONFUNCTIONS_H
 #define TAREA7AREAOFSHAPE_COMMONFUNCTIONS_H
-#define maxLength 1024*4
+#define maxLength 1024
 #define stringMaxLength 300
 #include <stdio.h>
 #include <stdbool.h>
