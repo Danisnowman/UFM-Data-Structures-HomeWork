@@ -47,5 +47,5 @@ int main() {
 //        printQueue(trabajadores,TOTAL_TRABAJADORES);
 //    printf("\n----------DELETING?---------\n");
 
-
+scanf(" ");
 }

@@ -12,17 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bec93292-94f0-4c1f-a181-edf5c5a9bb12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/merger.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/merger.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worker.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worker.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonFunctions.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonFunctions.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +30,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="389">
-                  <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+                <state relative-caret-position="465">
+                  <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -51,8 +42,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/queue.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+                <state relative-caret-position="566">
+                  <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -61,7 +52,7 @@
             <entry file="file://$PROJECT_DIR$/src/worker.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="630">
-                  <caret line="30" column="82" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="82" />
+                  <caret line="30" column="82" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="82" />
                   <folding>
                     <element signature="e#52#71#0" expanded="true" />
                   </folding>
@@ -94,8 +85,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/queue.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+                <state relative-caret-position="367">
+                  <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
                   <folding>
                     <element signature="e#104#123#0" expanded="true" />
                   </folding>
@@ -138,12 +129,12 @@
         <option value="$PROJECT_DIR$/src/merger.c" />
         <option value="$PROJECT_DIR$/src/queue.h" />
         <option value="$PROJECT_DIR$/src/worker.c" />
-        <option value="$PROJECT_DIR$/src/main.c" />
         <option value="$PROJECT_DIR$/src/queue.c" />
+        <option value="$PROJECT_DIR$/src/main.c" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="1280" />
     <option name="height" value="1200" />
   </component>
@@ -212,25 +203,24 @@
       <option name="presentableId" value="Default" />
       <updated>1551209694261</updated>
       <workItem from="1551209695366" duration="933000" />
-      <workItem from="1551302686757" duration="14683000" />
+      <workItem from="1551302686757" duration="15265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15616000" />
+    <option name="totallyTimeSpent" value="16198000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="1200" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="1200" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3191721" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.319063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.3299725" />
-      <window_info anchor="bottom" id="CPU Profiler" weight="0.52838826" />
+      <window_info active="true" anchor="bottom" id="CPU Profiler" sideWeight="0.81502426" visible="true" weight="0.3580586" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31227106" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3107241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39963338" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,7 +228,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32813933" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32967034" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18497577" side_tool="true" weight="0.75" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32967034" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -321,7 +311,7 @@
     <entry file="file://$PROJECT_DIR$/src/worker.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="30" column="82" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="82" />
+          <caret line="30" column="82" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="82" />
           <folding>
             <element signature="e#52#71#0" expanded="true" />
           </folding>
@@ -330,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/queue.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="367">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding>
             <element signature="e#104#123#0" expanded="true" />
           </folding>
@@ -340,15 +330,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/queue.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        <state relative-caret-position="566">
+          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        <state relative-caret-position="465">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
