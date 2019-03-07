@@ -1,0 +1,35 @@
+ digraph unHuffman {
+    node[shape=circle, label=""];
+    graph [ dpi = 300 ]; 
+    size ="50";
+    nodesep=0.2;
+    ranksep=0.2;
+    parent -> childLeft;
+    parent -> childRight;
+    childRight -> T_P;
+    childRight -> new_line;
+    T_P -> T;
+    T_P -> P;
+
+    
+    childLeft -> A_E;
+    childLeft -> I_S;
+
+    I_S -> I;
+    I_S -> S;
+
+    A_E -> A;
+    A_E -> E;
+
+
+    A[label="A"];
+    E[label="E"];
+    I[label="I"];
+    S[label="S"];
+    T[label="T"];
+    P[label="P"];
+    new_line[label="nl"];
+
+    {rank=same;A;E;I;S;T;P;new_line;}
+   
+ }    

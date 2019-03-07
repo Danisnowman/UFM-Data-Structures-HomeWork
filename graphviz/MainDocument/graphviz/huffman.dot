@@ -25,7 +25,7 @@
     <FONT POINT-SIZE="10">15</FONT>>];
  	A[label=<A<BR />
     <FONT POINT-SIZE="10">10</FONT>>];
- 	T[label=<I<BR />
+ 	T[label=<T<BR />
     <FONT POINT-SIZE="10">4</FONT>>];
  	NewLine[label=<\n<BR />
     <FONT POINT-SIZE="10">1</FONT>>];
