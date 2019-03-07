@@ -6,14 +6,16 @@ digraph Htree {
     ranksep=.5;
     //node [fontname="Arial"];
 
-    DX_block [fillcolor=lightgray,shape=record, label="DX-block"];
-    DE_block [fillcolor=skyblue,shape=record, label="DE-block"];
-    {rank=same;DX_block;DE_block}
+    
 
     //DX-block
     block_0 -> block_1;
     block_0 -> block_2;
     block_0 -> block_3;
+
+    DX_block [fillcolor=lightgray,shape=record, label="DX-block"];
+    DE_block [fillcolor=skyblue,shape=record, label="DE-block"];
+    {rank=same;DX_block;DE_block}
 
     //DX-block -> DE-blocks
     block_1 -> {block_4, block_13, block_9, block_11};
@@ -22,25 +24,25 @@ digraph Htree {
 
     //DX-block
 
-    block_0 [style=filled, fillcolor=lightgray, shape=record, label="{0|1}|{100|2}|{200|3}"];
-    block_1 [style=filled, fillcolor=lightgray, shape=record, label="{0|4}|{20|13}|{40|9}|{60|11}"];
-    block_2 [style=filled, fillcolor=lightgray, shape=record, label="{100|6}|{120|7}|{150|5}"];
-    block_3 [style=filled, fillcolor=lightgray, shape=record, label="{200|8}|{240|10}|{260|12}"];
+    block_0 [style=filled, fillcolor=lightgray, shape=record, label="{0|1}|{100|2}|{200|3}", xlabel="Block 0"];
+    block_1 [style=filled, fillcolor=lightgray, shape=record, label="{0|4}|{20|13}|{40|9}|{60|11}", xlabel="Block 1"];
+    block_2 [style=filled, fillcolor=lightgray, shape=record, label="{100|6}|{120|7}|{150|5}", xlabel="Block 2"];
+    block_3 [style=filled, fillcolor=lightgray, shape=record, label="{200|8}|{240|10}|{260|12}", xlabel="Block 3"];
     
 
     //DE-block
-    block_4 [style=filled, fillcolor=skyblue, shape=record, label="{E1}|{E2}|{...}"];
-    block_13 [style=filled, fillcolor=skyblue, shape=record, label="{E10}|{E11}|{...}"];
-    block_9 [style=filled, fillcolor=skyblue, shape=record, label="{E21}|{E22}|{...}"];
-    block_11 [style=filled, fillcolor=skyblue, shape=record, label="{E41}|{E42}|{...}"];
+    block_4 [style=filled, fillcolor=skyblue, shape=record, label="{E1}|{E2}|{...}", xlabel="Block 4"];
+    block_13 [style=filled, fillcolor=skyblue, shape=record, label="{E10}|{E11}|{...}", xlabel="Block 13"];
+    block_9 [style=filled, fillcolor=skyblue, shape=record, label="{E21}|{E22}|{...}", xlabel="Block 9"];
+    block_11 [style=filled, fillcolor=skyblue, shape=record, label="{E41}|{E42}|{...}", xlabel="Block 11"];
 
-    block_6 [style=filled, fillcolor=skyblue, shape=record, label="{E31}|{E32}|{...}"];
-    block_7 [style=filled, fillcolor=skyblue, shape=record, label="{E91}|{E92}|{...}"];
-    block_5 [style=filled, fillcolor=skyblue, shape=record, label="{E51}|{E52}|{...}"];
+    block_6 [style=filled, fillcolor=skyblue, shape=record, label="{E31}|{E32}|{...}", xlabel="Block 6"];
+    block_7 [style=filled, fillcolor=skyblue, shape=record, label="{E91}|{E92}|{...}", xlabel="Block 7"];
+    block_5 [style=filled, fillcolor=skyblue, shape=record, label="{E51}|{E52}|{...}", xlabel="Block 5"];
 
-    block_8 [style=filled, fillcolor=skyblue, shape=record, label="{E71}|{E72}|{...}"];
-    block_10 [style=filled, fillcolor=skyblue, shape=record, label="{E61}|{E62}|{...}"];
-    block_12 [style=filled, fillcolor=skyblue, shape=record, label="{E81}|{E82}|{...}"];
+    block_8 [style=filled, fillcolor=skyblue, shape=record, label="{E71}|{E72}|{...}", xlabel="Block 8"];
+    block_10 [style=filled, fillcolor=skyblue, shape=record, label="{E61}|{E62}|{...}", xlabel="Block 10"];
+    block_12 [style=filled, fillcolor=skyblue, shape=record, label="{E81}|{E82}|{...}", xlabel="Block 12"];
 
 
 }
