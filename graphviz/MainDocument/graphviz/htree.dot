@@ -1,0 +1,46 @@
+digraph Htree {
+	node [style=filled, shape=record];
+	graph [ dpi = 300 ]; 
+ 	size ="50";
+ 	nodesep=.1;
+    ranksep=.5;
+    //node [fontname="Arial"];
+
+    DX_block [fillcolor=lightgray,shape=record, label="DX-block"];
+    DE_block [fillcolor=skyblue,shape=record, label="DE-block"];
+    {rank=same;DX_block;DE_block}
+
+    //DX-block
+    block_0 -> block_1;
+    block_0 -> block_2;
+    block_0 -> block_3;
+
+    //DX-block -> DE-blocks
+    block_1 -> {block_4, block_13, block_9, block_11};
+    block_2 -> {block_6, block_7, block_5};
+    block_3 -> {block_8, block_10, block_12};
+
+    //DX-block
+
+    block_0 [style=filled, fillcolor=lightgray, shape=record, label="{0|1}|{100|2}|{200|3}"];
+    block_1 [style=filled, fillcolor=lightgray, shape=record, label="{0|4}|{20|13}|{40|9}|{60|11}"];
+    block_2 [style=filled, fillcolor=lightgray, shape=record, label="{100|6}|{120|7}|{150|5}"];
+    block_3 [style=filled, fillcolor=lightgray, shape=record, label="{200|8}|{240|10}|{260|12}"];
+    
+
+    //DE-block
+    block_4 [style=filled, fillcolor=skyblue, shape=record, label="{E1}|{E2}|{...}"];
+    block_13 [style=filled, fillcolor=skyblue, shape=record, label="{E10}|{E11}|{...}"];
+    block_9 [style=filled, fillcolor=skyblue, shape=record, label="{E21}|{E22}|{...}"];
+    block_11 [style=filled, fillcolor=skyblue, shape=record, label="{E41}|{E42}|{...}"];
+
+    block_6 [style=filled, fillcolor=skyblue, shape=record, label="{E31}|{E32}|{...}"];
+    block_7 [style=filled, fillcolor=skyblue, shape=record, label="{E91}|{E92}|{...}"];
+    block_5 [style=filled, fillcolor=skyblue, shape=record, label="{E51}|{E52}|{...}"];
+
+    block_8 [style=filled, fillcolor=skyblue, shape=record, label="{E71}|{E72}|{...}"];
+    block_10 [style=filled, fillcolor=skyblue, shape=record, label="{E61}|{E62}|{...}"];
+    block_12 [style=filled, fillcolor=skyblue, shape=record, label="{E81}|{E82}|{...}"];
+
+
+}

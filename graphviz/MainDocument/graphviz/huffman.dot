@@ -1,0 +1,38 @@
+ digraph Huffman {
+    node[shape=circle]
+ 	graph [ dpi = 300 ]; 
+ 	size ="50";
+ 	nodesep=0.2;
+    ranksep=0.2;
+ 	58 -> 25[label="  0  "];
+ 	58 -> 33[label="  1  "];
+ 	25 -> I[label="  0  "];
+ 	25 -> P[label="  1  "];
+ 	33 -> E[label="  0  "];
+ 	33 -> 18[label="  1  "];
+ 	18 -> A[label="  0  "];
+ 	18 -> 8[label="  1  "];
+ 	8 -> T[label="  0  "];
+ 	8 -> 4[label="  1  "];
+ 	4 -> NewLine[label="  0  "];
+ 	4 -> S[label="  1  "];
+
+ 	I[label=<I<BR />
+    <FONT POINT-SIZE="10">12</FONT>>];
+ 	P[label=<P<BR />
+    <FONT POINT-SIZE="10">13</FONT>>];
+ 	E[label=<E<BR />
+    <FONT POINT-SIZE="10">15</FONT>>];
+ 	A[label=<A<BR />
+    <FONT POINT-SIZE="10">10</FONT>>];
+ 	T[label=<I<BR />
+    <FONT POINT-SIZE="10">4</FONT>>];
+ 	NewLine[label=<\n<BR />
+    <FONT POINT-SIZE="10">1</FONT>>];
+ 	S[label=<S<BR />
+    <FONT POINT-SIZE="10">3</FONT>>];
+
+    {rank=same;I;P;}
+    {rank=same;E;A;T;NewLine;S;}
+
+ }    

@@ -1,0 +1,28 @@
+ digraph redBlackTree {
+ 	graph [ dpi = 300 ]; 
+ 	size ="50";
+ 	nodesep=0.5   ;
+    ranksep=0.5;
+    node[fontcolor=white, shape=circle, style=filled]
+    8 -> 5;
+    5 -> NIL1;
+    5 -> NIL2;
+    8 -> 15;
+    15 -> 12;
+    12 -> 9;
+    9 -> NIL3;
+    9 -> NIL4;
+    12 -> 13;
+    13 -> NIL5;
+    13 -> NIL6;
+    15 -> 19;
+    19 -> NIL7;
+    19 -> 23;
+    23 -> NIL8;
+    23 -> NIL9;
+
+
+ 	NIL9,NIL8,NIL7,NIL6,NIL5,NIL4,NIL3,NIL2,NIL1[fontcolor=black,fillcolor=white,label=NIL];
+ 	8,5,12,19[fillcolor=black]
+    15,9,13,23[fontcolor=white, shape=circle, style=filled, fillcolor=red]
+ }    

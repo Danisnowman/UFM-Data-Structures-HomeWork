@@ -1,0 +1,29 @@
+ digraph Treap {
+ 	graph [ dpi = 300 ]; 
+ 	size ="50";
+ 	nodesep=0.5   ;
+    ranksep=0.5;
+    6 -> 4;
+    6 -> 8;
+    8 -> 9;
+    4 -> 3;
+    4 -> 5;
+    3 -> 2;
+
+
+ 	6[label=<Key: 6<BR />
+    <FONT POINT-SIZE="10">Priority: 1059</FONT>>];
+ 	4[label=<Key: 4<BR />
+    <FONT POINT-SIZE="10">Priority: 2486</FONT>>];
+ 	8[label=<Key: 8<BR />
+    <FONT POINT-SIZE="10">Priority: 1936</FONT>>];
+ 	3[label=<Key: 3<BR />
+    <FONT POINT-SIZE="10">Priority: 4407</FONT>>];
+ 	5[label=<Key: 5<BR />
+    <FONT POINT-SIZE="10">Priority: 9403</FONT>>];
+ 	2[label=<Key: 2<BR />
+    <FONT POINT-SIZE="10">Priority: 4743</FONT>>];
+    9[label=<Key: 9<BR />
+    <FONT POINT-SIZE="10">Priority: 7336</FONT>>];
+
+ }    

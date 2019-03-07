@@ -1,0 +1,284 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{stixScientificAmericanArticle1991}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=56a278047c8033f1ad3fe0337808a706}{%
+           family={Stix},
+           familyi={S\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{56a278047c8033f1ad3fe0337808a706}
+      \strng{fullhash}{56a278047c8033f1ad3fe0337808a706}
+      \strng{bibnamehash}{56a278047c8033f1ad3fe0337808a706}
+      \strng{authorbibnamehash}{56a278047c8033f1ad3fe0337808a706}
+      \strng{authornamehash}{56a278047c8033f1ad3fe0337808a706}
+      \strng{authorfullhash}{56a278047c8033f1ad3fe0337808a706}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.huffmancoding.com/my-uncle/scientific-american}}
+      \field{title}{Scientific {{American Article}} | {{Huffman Coding}}}
+      \field{year}{1991}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/5S2RCEGB/scientific-american.html
+      \endverb
+    \endentry
+    \entry{instituteofelectricalandelectronicsengineers20164thInternational2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e2dd85d5ed4ff94326a8b5cb5fb21ab4}{%
+           family={{Institute of Electrical and Electronics Engineers}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{fullhash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{bibnamehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{authorbibnamehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{authornamehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{authorfullhash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{OCLC: 962890622}
+      \field{note}{\url{http://ieeexplore.ieee.org/servlet/opac?punumber=7565234}}
+      \field{title}{2016 4th {{International Conference}} on {{Information}} and {{Communication Technology}} ({{ICoICT}}).}
+      \field{year}{2016}
+    \endentry
+    \entry{freesoftwarefundationGNUGzip2008}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=22e8ee6ea3ab8f9ecf41dd5bfeec6583}{%
+           family={Fundation},
+           familyi={F\bibinitperiod},
+           given={Free\bibnamedelima Software},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{22e8ee6ea3ab8f9ecf41dd5bfeec6583}
+      \strng{fullhash}{22e8ee6ea3ab8f9ecf41dd5bfeec6583}
+      \strng{bibnamehash}{22e8ee6ea3ab8f9ecf41dd5bfeec6583}
+      \strng{authorbibnamehash}{22e8ee6ea3ab8f9ecf41dd5bfeec6583}
+      \strng{authornamehash}{22e8ee6ea3ab8f9ecf41dd5bfeec6583}
+      \strng{authorfullhash}{22e8ee6ea3ab8f9ecf41dd5bfeec6583}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gnu.org/software/gzip/manual/gzip.html\#index-options-4}}
+      \field{month}{11}
+      \field{title}{{{GNU Gzip}}}
+      \field{year}{2008}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/SQUNH3KG/gzip.html
+      \endverb
+    \endentry
+    \entry{libpngPNGSpecificationDeflate}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=378eba0c3ba51cb26a4b13e100d0686b}{%
+           family={{libpng}},
+           familyi={l\bibinitperiod}}}%
+      }
+      \strng{namehash}{378eba0c3ba51cb26a4b13e100d0686b}
+      \strng{fullhash}{378eba0c3ba51cb26a4b13e100d0686b}
+      \strng{bibnamehash}{378eba0c3ba51cb26a4b13e100d0686b}
+      \strng{authorbibnamehash}{378eba0c3ba51cb26a4b13e100d0686b}
+      \strng{authornamehash}{378eba0c3ba51cb26a4b13e100d0686b}
+      \strng{authorfullhash}{378eba0c3ba51cb26a4b13e100d0686b}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.libpng.org/pub/png/spec/1.2/PNG-Compression.html}}
+      \field{title}{{{PNG Specification}}: {{Deflate}}/{{Inflate Compression}}}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/TVK5H8LY/PNG-Compression.html
+      \endverb
+    \endentry
+    \entry{MP3TechOverview}{misc}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.mp3-tech.org/tech.html\#huffman}}
+      \field{title}{{{MP3}}' {{Tech}} - {{Overview}} of the {{MP3}} Techniques}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/3ZA92RDC/tech.html
+      \endverb
+    \endentry
+    \entry{forsytheAlgorithms1964}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d1b5ec94f464c685c4ac312cf41e5bb5}{%
+           family={Forsythe},
+           familyi={F\bibinitperiod},
+           given={G.\bibnamedelimi E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1b5ec94f464c685c4ac312cf41e5bb5}
+      \strng{fullhash}{d1b5ec94f464c685c4ac312cf41e5bb5}
+      \strng{bibnamehash}{d1b5ec94f464c685c4ac312cf41e5bb5}
+      \strng{authorbibnamehash}{d1b5ec94f464c685c4ac312cf41e5bb5}
+      \strng{authornamehash}{d1b5ec94f464c685c4ac312cf41e5bb5}
+      \strng{authorfullhash}{d1b5ec94f464c685c4ac312cf41e5bb5}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00010782}
+      \field{journaltitle}{Communications of the ACM}
+      \field{month}{6}
+      \field{note}{\url{http://portal.acm.org/citation.cfm?doid=512274.512284}}
+      \field{number}{6}
+      \field{title}{Algorithms}
+      \field{volume}{7}
+      \field{year}{1964}
+      \verb{doi}
+      \verb 10.1145/512274.512284
+      \endverb
+    \endentry
+    \entry{symposiumonfoundationsofcomputerscience30thAnnualSymposium1989}{book}{}
+      \name{editor}{2}{}{%
+        {{hash=e7a647137ebf45f1856422b1a1720725}{%
+           family={{Symposium on Foundations of Computer Science}},
+           familyi={S\bibinitperiod}}}%
+        {{hash=d7e516380100beea42ad1ab83a405b1e}{%
+           family={Society},
+           familyi={S\bibinitperiod},
+           given={IEEE\bibnamedelima Computer},
+           giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Los Alamitos, Calif.}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Soc. Press}%
+      }
+      \strng{namehash}{273d5de9d178b356afd06fdd8bd7bc7d}
+      \strng{fullhash}{273d5de9d178b356afd06fdd8bd7bc7d}
+      \strng{bibnamehash}{273d5de9d178b356afd06fdd8bd7bc7d}
+      \strng{editorbibnamehash}{273d5de9d178b356afd06fdd8bd7bc7d}
+      \strng{editornamehash}{273d5de9d178b356afd06fdd8bd7bc7d}
+      \strng{editorfullhash}{273d5de9d178b356afd06fdd8bd7bc7d}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-8186-1982-3}
+      \field{note}{OCLC: 20949758}
+      \field{title}{30th {{Annual Symposium}} on {{Foundations}} of {{Computer Science}} , {{October}} 30 - {{November}} 1, 1989, {{Research Triangle Park}}, {{NC}}}
+      \field{year}{1989}
+    \endentry
+    \entry{fengPinporelmundoSkipLists2011}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=31095466748b634ef4bfb905a8356f0c}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Pin-Sho},
+           giveni={P\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{31095466748b634ef4bfb905a8356f0c}
+      \strng{fullhash}{31095466748b634ef4bfb905a8356f0c}
+      \strng{bibnamehash}{31095466748b634ef4bfb905a8356f0c}
+      \strng{authorbibnamehash}{31095466748b634ef4bfb905a8356f0c}
+      \strng{authornamehash}{31095466748b634ef4bfb905a8356f0c}
+      \strng{authorfullhash}{31095466748b634ef4bfb905a8356f0c}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pinporelmundo.blogspot.com/2011/06/skip-lists-compared-with-treaps-and-red.html}}
+      \field{month}{6}
+      \field{title}{Pinporelmundo: {{Skip Lists}} Compared with {{Treaps}} and {{Red}}-{{Black Trees}}}
+      \field{year}{2011}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/LUP7KZTB/skip-lists-compared-with-treaps-and-red.html
+      \endverb
+    \endentry
+    \entry{cormenIntroductionAlgorithms2001}{book}{}
+      \name{editor}{2}{}{%
+        {{hash=835b8c52757d98c15859b416316d9820}{%
+           family={Cormen},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=835b8c52757d98c15859b416316d9820}{%
+           family={Cormen},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Mass}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{39a6c5ef96b5cbd121af8e90cdf499af}
+      \strng{fullhash}{39a6c5ef96b5cbd121af8e90cdf499af}
+      \strng{bibnamehash}{39a6c5ef96b5cbd121af8e90cdf499af}
+      \strng{editorbibnamehash}{39a6c5ef96b5cbd121af8e90cdf499af}
+      \strng{editornamehash}{39a6c5ef96b5cbd121af8e90cdf499af}
+      \strng{editorfullhash}{39a6c5ef96b5cbd121af8e90cdf499af}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd ed}
+      \field{isbn}{978-0-262-03293-3}
+      \field{title}{Introduction to Algorithms}
+      \field{year}{2001}
+      \keyw{Computer algorithms,Computer programming}
+    \endentry
+    \entry{tytsoAddExt3Indexed2002}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d41d8cd98f00b204e9800998ecf8427e}{%
+}}%
+      }
+      \strng{namehash}{d41d8cd98f00b204e9800998ecf8427e}
+      \strng{fullhash}{d41d8cd98f00b204e9800998ecf8427e}
+      \strng{bibnamehash}{d41d8cd98f00b204e9800998ecf8427e}
+      \strng{authorbibnamehash}{d41d8cd98f00b204e9800998ecf8427e}
+      \strng{authornamehash}{d41d8cd98f00b204e9800998ecf8427e}
+      \strng{authorfullhash}{d41d8cd98f00b204e9800998ecf8427e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://lwn.net/Articles/11481/}}
+      \field{month}{10}
+      \field{title}{Add Ext3 Indexed Directory (Htree) Support [{{LWN}}.Net]}
+      \field{year}{2002}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/3WEWKNNE/11481.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
