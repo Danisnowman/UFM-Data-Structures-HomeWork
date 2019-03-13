@@ -2,12 +2,6 @@ import java.util.Stack;
 
 public class ShuntingYard {
 
-/*    public static void main(String[] args) {
-        String infix = " 3 * x ^ 2 * ( x ^ 2 + 1 ) ^ ( 1 / 2 ) + e ^ ( 2 * x )";
-        System.out.printf("infix:   %s%n", infix);
-        System.out.printf("postfix: %s%n", infixToPostfix(infix));
-    }*/
-
     public static String infixToPostfix(String infix) {
         /* To find out the precedence, we take the index of the
            token in the ops string and divide by 2 (rounding down).
@@ -40,7 +34,7 @@ public class ShuntingYard {
                 }
             }
             else if (c == '(') {
-                stack.push(-2); // -2 stands for '('
+                stack.push(-2); // -2 es  '('
             }
             else if (c == ')') {
                 // until '(' on stack, pop operators.
