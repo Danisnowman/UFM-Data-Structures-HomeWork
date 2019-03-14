@@ -19,7 +19,7 @@ class ExpressionTree {
     // A utility function to check if 'maybe_operator'
     // is an operator
 
-    boolean isOperator(char maybe_operator) {
+    public boolean isOperator(char maybe_operator) {
         return (maybe_operator == '+' ||
                 maybe_operator == '-' ||
                 maybe_operator == '*' ||
@@ -28,7 +28,7 @@ class ExpressionTree {
     }
 
     // Utility function to print tree inorder traversal
-    void inorder(Node tree) {
+    public void inorder(Node tree) {
         if (tree != null) {
             inorder(tree.left);
             System.out.print(tree.value + " ");
@@ -44,19 +44,19 @@ class ExpressionTree {
 
         // Traverse through every character of
         // input expression
-        for (int i = 0; i < postfix.length; i++) {
+        for (char aPostfix : postfix) {
 
             // If operand, simply push into stack
-            if (!isOperator(postfix[i])) {
-                t = new Node(postfix[i]);
+            if (!isOperator(aPostfix)) {
+                t = new Node(aPostfix);
                 st.push(t);
             } else // operator
             {
-                t = new Node(postfix[i]);
+                t = new Node(aPostfix);
 
                 // Pop two top nodes
                 // Store top
-                t1 = st.pop();	 // Remove top
+                t1 = st.pop();     // Remove top
                 t2 = st.pop();
 
                 // make them children

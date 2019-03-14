@@ -1,15 +1,15 @@
 
-public class Differentiate {
+class Differentiate {
 
-    private boolean check_if_constant(char tree_value){
+    public boolean check_if_constant(char tree_value){
         return ((Character.isDigit(tree_value) || Character.isAlphabetic(tree_value)) && tree_value != 'x');
     }
 
-    private static boolean isNumeric(String strNum) {
+    public boolean isNumeric(String strNum) {
         return strNum.matches("-?\\d+(\\.\\d+)?");
     }
 
-    private String restar_exp(String exp){
+    public String restar_exp(String exp){
         if (isNumeric(exp)){
             return String.valueOf(Integer.parseInt(exp)-1);
         } else
