@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/danisnowman/Documents/ESTRUCTURA DE DATOS/Tarea2StackUsingArray/Stack Using Array/Stack Using Array/commonFunctions.h">
+   </FileRef>
+   <FileRef
+      location = "group:UFM">
+   </FileRef>
+   <FileRef
+      location = "self:Stack Using Array.xcodeproj">
+   </FileRef>
+</Workspace>

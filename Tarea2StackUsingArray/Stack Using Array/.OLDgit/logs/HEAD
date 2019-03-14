@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 b9ee831df4a988a9d2d8f981a638aa783e71347f danisnowman <danisnowman@gmail.com> 1548280986 -0600	commit (initial): Initial Commit
+b9ee831df4a988a9d2d8f981a638aa783e71347f 36ca36ceb75d7da94d9bb98bfda1b85ed1762944 danisnowman <danisnowman@gmail.com> 1548287928 -0600	commit: Initial release
+36ca36ceb75d7da94d9bb98bfda1b85ed1762944 2f98fe7c4de44fbd45167cd10e1d022ccfdde434 danisnowman <danisnowman@gmail.com> 1548288161 -0600	commit: added gitignore
+2f98fe7c4de44fbd45167cd10e1d022ccfdde434 fac0f08ed4919ed2af40527104a4da7984a8c879 danisnowman <danisnowman@gmail.com> 1548288500 -0600	commit: Removed unnecessary files from IDE
+fac0f08ed4919ed2af40527104a4da7984a8c879 daf0e41d2539589106ef5118511a2fc0238f1693 danisnowman <danisnowman@gmail.com> 1548288515 -0600	commit: Removed unecessary IDE files and dirs
+daf0e41d2539589106ef5118511a2fc0238f1693 a8772f366da64aac1e298cc7713d1a5d3d93373e danisnowman <danisnowman@gmail.com> 1548288545 -0600	commit: Removed unnecessary files from IDE again
+a8772f366da64aac1e298cc7713d1a5d3d93373e 54f6f73b5e863ce5c305a729c9fefbdabe0f8496 danisnowman <danisnowman@gmail.com> 1548288794 -0600	commit: Updated .gitignore
+54f6f73b5e863ce5c305a729c9fefbdabe0f8496 c92ee9a279c7a8940149de1ac7c94941a91e1f54 danisnowman <danisnowman@gmail.com> 1548289487 -0600	commit: Added printStack and clearArray() to switch
+c92ee9a279c7a8940149de1ac7c94941a91e1f54 95fbfe25d2a1abd4c8c26e61fd13a6ba3e47ea75 danisnowman <danisnowman@gmail.com> 1548290286 -0600	commit: Changed strings for better legibility
+95fbfe25d2a1abd4c8c26e61fd13a6ba3e47ea75 244fea1b633e88d0e6d29ebba116695d9f54e382 danisnowman <danisnowman@gmail.com> 1548290796 -0600	commit: Removed unnecessary dir
+244fea1b633e88d0e6d29ebba116695d9f54e382 309f176abe1bd33f8a9bc39c3bdbe955ab649f1b danisnowman <danisnowman@gmail.com> 1548291244 -0600	commit: Added Video and Profiling
