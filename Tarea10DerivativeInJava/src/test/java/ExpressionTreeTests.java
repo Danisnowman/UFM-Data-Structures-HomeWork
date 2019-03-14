@@ -14,7 +14,7 @@ public class ExpressionTreeTests {
         };
     }
 
-    @Test(dataProvider = "isOperator", groups = {"All", "ExpressionTree"}, description = "Test: Ve si el input es constante")
+    @Test(dataProvider = "isOperator", groups = {"All", "ExpressionTree"}, description = "Test isOperator(): Ve si el input es operador")
     public void check_if_constant(char maybe_operator){
         ExpressionTree ET = new ExpressionTree();
         switch (maybe_operator){

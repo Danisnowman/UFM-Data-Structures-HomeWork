@@ -1,8 +1,5 @@
-// Java program to construct an expression tree
-
 import java.util.Stack;
 
-// Java program for expression tree
 class Node {
 
     char value;
@@ -16,9 +13,6 @@ class Node {
 
 class ExpressionTree {
 
-    // A utility function to check if 'maybe_operator'
-    // is an operator
-
     public boolean isOperator(char maybe_operator) {
         return (maybe_operator == '+' ||
                 maybe_operator == '-' ||
@@ -27,7 +21,7 @@ class ExpressionTree {
                 maybe_operator == '^');
     }
 
-    // Utility function to print tree inorder traversal
+    // print tree inorder traversal
     public void inorder(Node tree) {
         if (tree != null) {
             inorder(tree.left);

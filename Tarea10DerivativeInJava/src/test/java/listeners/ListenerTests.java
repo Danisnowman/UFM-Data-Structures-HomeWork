@@ -1,5 +1,7 @@
 package listeners;
-import org.testng.*;
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
 
 import java.util.Arrays;
 
@@ -34,6 +36,6 @@ public class ListenerTests implements ITestListener{
     }
 
     public void onFinish(ITestContext iTestContext) {
-
+        System.out.println("\n");
     }
 }

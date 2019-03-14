@@ -14,7 +14,7 @@ public class ShuntingYardTests {
         };
     }
 
-    @Test(dataProvider = "infixToPostfix", groups = {"All", "ShuntingYard"}, description = "Test: Ve si el input es constante")
+    @Test(dataProvider = "infixToPostfix", groups = {"All", "ShuntingYard"}, description = "Test infoxToPostfix(): Traduce de infix a postfix")
     public void infixToPostfix(String infix){
         ShuntingYard.infixToPostfix(infix);
         switch (infix){
