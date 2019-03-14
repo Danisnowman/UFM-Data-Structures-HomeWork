@@ -10,7 +10,7 @@ public class  Main {
 //        System.out.println("Enter an infix expression:");
 //        String infix = scanf.nextLine();
 //        String infix = "3 * x ^ 2 * ( x ^ 2 + 1 ) ^ ( 1 / 2 ) + e ^ ( 2 * x )";
-          String infix = "( A ^ 2 ) + B * X + ( C ^ 2 )";
+          String infix = "x + x";
         System.out.printf("infix:   %s%n", infix);
         String postfix =  ShuntingYard.infixToPostfix(infix);
         System.out.printf("postfix: %s%n", postfix);
@@ -20,7 +20,7 @@ public class  Main {
         System.out.print("infix read from tree: ");
         algebraic_tree.inorder(root);
         System.out.println("\n\n Derivative:");
-        System.out.println(diff.exp_diff(root));
+        System.out.println(diff.derivate(root));
 
     }
 }
