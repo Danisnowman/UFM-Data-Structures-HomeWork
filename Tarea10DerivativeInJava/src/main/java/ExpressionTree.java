@@ -24,9 +24,11 @@ class ExpressionTree {
     // print tree inorder traversal
     public void inorder(Node tree) {
         if (tree != null) {
+//            System.out.print("(");
             inorder(tree.left);
             System.out.print(tree.value + " ");
             inorder(tree.right);
+//            System.out.print(")");
         }
     }
 

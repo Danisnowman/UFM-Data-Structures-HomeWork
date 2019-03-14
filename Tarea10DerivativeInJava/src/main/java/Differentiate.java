@@ -43,11 +43,16 @@ class Differentiate {
                     System.out.print(String.valueOf(tree.right.value) + " * " + String.valueOf(tree.left.value) + " ^ " + "(" + restar_exp(exp) + ")");
                     derivate(tree.left);
                 }
-                // e^x RIGHT
+                // a^x RIGHT
                 else if (tree.right.value == 'x' && check_if_constant(tree.left.value)) {
-//                    System.out.println("IF 2");
-//                    differentiated += String.valueOf(tree.left.value) + " ^ " + String.valueOf(tree.right.value);
-                    System.out.print(String.valueOf(tree.left.value) + " ^ " + String.valueOf(tree.right.value));
+                    if (tree.left.value != 'e') {
+//                        System.out.println("IF 2");
+                        //                    differentiated += String.valueOf(tree.left.value) + " ^ " + String.valueOf(tree.right.value);
+                        System.out.print(String.valueOf(tree.left.value) + " ^ " + String.valueOf(tree.right.value + " * ln(" + tree.left.value + ") "));
+                    }
+                    else {
+                        System.out.println(String.valueOf(tree.left.value) + " ^ " + String.valueOf(tree.right.value));
+                    }
                     derivate(tree.left);
                 }
                 // a ^ ( a * x )
@@ -57,11 +62,11 @@ class Differentiate {
                     System.out.print(" ( " + String.valueOf(tree.right.left.value) + " * " + String.valueOf(tree.left.value) + " ^ ( " + String.valueOf(tree.right.left.value) + " * " + String.valueOf(tree.right.right.value) + " ) " + " ) " );
                     derivate(tree.left);
                 }
-                /*else if (tree.right.right != null){
-                    System.out.println("IF 4");
-                    check_if_constant(tree.right.right.value);
-                    differentiated += String.valueOf(tree.right.right.value) + " * " + String.valueOf(tree.left.value) + " ^ " + String.valueOf(tree.right.value);
-                }*/
+//                else if (tree.right.right != null){
+//                    System.out.println("IF 4");
+//                    check_if_constant(tree.right.right.value);
+//                    differentiated += String.valueOf(tree.right.right.value) + " * " + String.valueOf(tree.left.value) + " ^ " + String.valueOf(tree.right.value);
+//                }
         }
         if (tree.value == '+' || tree.value == '-') {
                 // x + a
@@ -90,9 +95,9 @@ class Differentiate {
                     derivate(tree.left);
                 } // has two * (one at each branch)
                 else if (tree.right.value == '*' && tree.left.value == '*' ){
-                    System.out.println("this");
+                    System.out.println("THIS 1");
+                    derivate(tree.left);
                 }
-
         }
         return differentiated;
     }

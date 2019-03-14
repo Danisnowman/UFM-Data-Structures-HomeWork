@@ -11,7 +11,8 @@ public class  Main {
 //        String infix = scanf.nextLine();
 //        String infix = "3 * x ^ 2 * ( x ^ 2 + 1 ) ^ ( 1 / 2 ) + e ^ ( 2 * x )";
 //          String infix = "e ^ ( a * x ) + 3";
-        String infix = "3 * ( x ^ 2 ) * ( x ^ 2 + 1 ) ^ 3 + ( e ^ 2 ) * x ";
+//        String infix = "3 * ( x ^ 2 ) * ( x ^ 2 + 1 ) ^ 3 + ( e ^ 2 ) * x ";
+        String infix = " a ^ x";
         System.out.printf("infix:   %s%n", infix);
         String postfix =  ShuntingYard.infixToPostfix(infix);
         System.out.printf("postfix: %s%n", postfix);
