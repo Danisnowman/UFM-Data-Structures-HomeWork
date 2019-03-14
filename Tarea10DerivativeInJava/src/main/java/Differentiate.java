@@ -19,17 +19,17 @@ class Differentiate {
 
     // DIFFERENTIATES EXPONENTIAL FUNCTIONS
     String derivate(Node tree){
-        System.out.println("tree.v " + tree.value);
-        System.out.println("tree.left "+ tree.left.value);
-        System.out.println("tree.right "+ tree.right.value);
-        System.out.println("tree.left.left "+ tree.left.left.value);
-        System.out.println("tree,left,left.left " + tree.left.left.left.value);
-        System.out.println("tree.left.right "+ tree.left.right.value);
-        System.out.println("tree.left.right.left " + tree.left.right.left.value);
-        System.out.println("tree.left.right.right " + tree.left.right.right.value);
-
-        System.out.println("tree.right.right "+ tree.right.right.value);
-        System.out.println("tree.right.left "+ tree.right.left.value);
+//        System.out.println("tree.v " + tree.value);
+//        System.out.println("tree.left "+ tree.left.value);
+//        System.out.println("tree.right "+ tree.right.value);
+//        System.out.println("tree.left.left "+ tree.left.left.value);
+//        System.out.println("tree,left,left.left " + tree.left.left.left.value);
+//        System.out.println("tree.left.right "+ tree.left.right.value);
+//        System.out.println("tree.left.right.left " + tree.left.right.left.value);
+//        System.out.println("tree.left.right.right " + tree.left.right.right.value);
+//
+//        System.out.println("tree.right.right "+ tree.right.right.value);
+//        System.out.println("tree.right.left "+ tree.right.left.value);
 
         String differentiated = "";
         String exp = "";
@@ -54,7 +54,7 @@ class Differentiate {
                 else if (tree.right.value == '*'){
 //                    System.out.println("IF 3");
 //                    differentiated += String.valueOf(tree.right.left.value) + " * " + String.valueOf(tree.left.value) + " ^ ( " + String.valueOf(tree.right.left.value) + " * " + String.valueOf(tree.right.right.value) + " ) ";
-                    System.out.print(String.valueOf(tree.right.left.value) + " * " + String.valueOf(tree.left.value) + " ^ ( " + String.valueOf(tree.right.left.value) + " * " + String.valueOf(tree.right.right.value) + " ) ");
+                    System.out.print(" ( " + String.valueOf(tree.right.left.value) + " * " + String.valueOf(tree.left.value) + " ^ ( " + String.valueOf(tree.right.left.value) + " * " + String.valueOf(tree.right.right.value) + " ) " + " ) " );
                     derivate(tree.left);
                 }
                 /*else if (tree.right.right != null){
