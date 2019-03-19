@@ -16,7 +16,7 @@ public class  Main {
             reader = new BufferedReader(new FileReader(
                     "words_alpha.txt"));
             String line = reader.readLine();
-                
+
             while (line != null) {
                 BTS.add(line);
                 List.add(line);
