@@ -45,6 +45,22 @@ The following documents describes multiple algorithms to achieve a total sum of 
 	\end{enumerate}
 \end{enumerate}
 
+	\subsection{Advantages}
+	\begin{itemize}
+		\item Linear time (can me a disadvantage too, depends on usage)
+		\item Easy to code
+	\end{itemize}
+
+	\subsection{Applications}
+	\begin{itemize}
+		\item Scheduling
+		\item Data processing networks
+		\item Causal structures
+		\item Genealogy and version history
+		\item Citation graphs
+		\item Data compression
+	\end{itemize}
+
 
 
 
@@ -65,6 +81,18 @@ The following documents describes multiple algorithms to achieve a total sum of 
 		\end{enumerate}
 	\end{enumerate}
 
+	\subsection{Advantages}
+	\begin{itemize}
+		\item It may be improved in practice (although not in the worst case) by the observation that, if an iteration of the main loop of the algorithm terminates without making any changes, the algorithm can be immediately terminated, as subsequent iterations will not make any more changes. 
+		\item It can have negative weights.
+	\end{itemize}
+	
+	\subsection{Applications}
+	\begin{itemize}
+		\item  Distance-vector routing protocol
+	\end{itemize}
+
+
 \section{Dijkstra's Algorithm}
 	\subsection{Explanation}
 	\par The more common Dijkstra's algorithm sets a node as the \textit{source} node and finds the shortest paths from said source to all other vertices in the graph by adding up their edges' weights and assigning said sum to the next node and so on\cite{ShortestPathAlgorithms}.
@@ -82,6 +110,7 @@ The following documents describes multiple algorithms to achieve a total sum of 
 		Apply the same algorithm again until the priority queue is empty.
 	\end{enumerate}
 
+
 \section{Floyd–Warshall's Algorithm}
 	\subsection{Explanation}
 	\par A single execution of the algorithm will find the summed lengths of the shortest path between all pairs of vertices.
@@ -96,6 +125,20 @@ The following documents describes multiple algorithms to achieve a total sum of 
 		\item Minimize the shortest paths between any 2 pairs in the previous operation.
 		\item For any 2 vertices \textit{(i,j)}, one should actually minimize the distances between this pair using the first \textit{K} nodes, so the shortest path will be: \textit{$min(dist[i][k]+dist[k][j],dist[i][j])$.}
 	\end{enumerate}
+
+	\subsection{Advantages}
+	\begin{itemize}
+		\item It is a good idea to use this algorithm with dense graphs (i.e. when almost all pairs are connected by edges)
+	\end{itemize}
+	
+	\subsection{Applications}
+	\begin{itemize}
+		\item  Finding a regular expression denoting the regular language accepted by a finite automation.
+		\item Inversion of real matrices.
+		\item Optimal routing. In this application one is interested in finding the path with the maximum flow between two vertices. This means that, rather than taking minima as in the pseudocode above, one instead takes maxima. The edge weights represent fixed constraints on flow. Path weights represent bottlenecks; so the addition operation above is replaced by the minimum operation.
+		\item Fast computation of Pathfinder networks.
+		\item Computing the similarity between graphs
+	\end{itemize}
 
 \part{Longest Path Algorithm}
 
