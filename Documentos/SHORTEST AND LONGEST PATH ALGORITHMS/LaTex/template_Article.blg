@@ -1,0 +1,15 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'template_Article.blg'
+[52] biber-darwin:315> INFO - === Wed Apr  3, 2019, 20:06:44
+[78] Biber.pm:371> INFO - Reading 'template_Article.bcf'
+[162] Biber.pm:886> INFO - Using all citekeys in bib section 0
+[176] Biber.pm:4093> INFO - Processing section 0
+[187] Biber.pm:4254> INFO - Looking for bibtex format file 'shortest-longest.bib' for section 0
+[188] bibtex.pm:1523> INFO - LaTeX decoding ...
+[193] bibtex.pm:1340> INFO - Found BibTeX data source 'shortest-longest.bib'
+[204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[204] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[205] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[207] bbl.pm:636> INFO - Writing 'template_Article.bbl' with encoding 'UTF-8'
+[208] bbl.pm:739> INFO - Output to template_Article.bbl

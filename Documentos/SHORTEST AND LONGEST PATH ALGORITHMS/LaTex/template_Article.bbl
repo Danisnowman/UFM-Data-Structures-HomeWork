@@ -1,0 +1,59 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{ShortestPathAlgorithms}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Detailed tutorial on Shortest Path Algorithms to improve your understanding of Algorithms. Also try practice problems to test \& improve your skill level.}
+      \field{howpublished}{\url{https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/tutorial/}}
+      \field{journaltitle}{HackerEarth}
+      \field{title}{Shortest {{Path Algorithms Tutorials}} \& {{Notes}} | {{Algorithms}}}
+      \true{nocite}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/VHLJPGJN/tutorial.html
+      \endverb
+    \endentry
+    \entry{ShortestPathDirected2013}{misc}{}
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Given a Weighted Directed Acyclic Graph and a source vertex in the graph, find the shortest paths from given source to all other vertices. Recommended:\ldots{} Read More »{}}
+      \field{howpublished}{\url{https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/}}
+      \field{journaltitle}{GeeksforGeeks}
+      \field{month}{5}
+      \field{title}{Shortest {{Path}} in {{Directed Acyclic Graph}}}
+      \field{year}{2013}
+      \true{nocite}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/GZV6KSEP/shortest-path-for-directed-acyclic-graphs.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

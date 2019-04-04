@@ -1,0 +1,129 @@
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[language=english,style=ieee,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+
+\addbibresource{shortest-longest.bib}
+
+%opening
+\title{\textbf{5 Shortest \& 5 Longest Path Algorithms}}
+\author{Daniel E. Hernández - \texttt{20180077}}
+\date{2019-04-4}
+
+
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The following documents describes multiple algorithms to achieve a total sum of weights of paths from one node to either another one or all other nodes. It contains four \textit{Shortest Path Algorithms} and one \textit{Longest Path Algorithm}.
+\end{abstract}
+
+\part{Shortest Path Algorithms}
+\section{... in a Directed Acyclic Graph \textit{(DAG)}}
+\subsection{Explanation}
+\par Given that it has a linear time, we use topological sort to find the distance of a signle source to all other nodes\cite{ShortestPathDirected2013}.
+
+\subsection{Complexities}
+\par $O(m + n)$
+
+\subsection{Algorithm Steps}
+\begin{enumerate}
+	\item Initialize $dist[] = {INF, INF,...}$ and $dist[s] = 0$ where $s$ is the source vertex and \textit{INF} is $\infty$
+	\item Create a topological order of all vertices.
+	\item Do the following for every vertex \textit{u} in topological order.
+	\begin{enumerate}
+		\item Do the following for every adjacent vertex \textit{v} of \textit{u}
+		\begin{enumerate}
+			\item if $(dist[v] > dist[u] + weight(u,v))$
+			\begin{enumerate}
+				\item $dist[v] = dist[u] + weight(u,v)$
+			\end{enumerate}
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+
+
+
+\section{Bellman Ford's Algorithm}
+	\subsection{Explanation}
+	\par Bellman Ford's algorithm is used to find the shortest path from the source vertex to all other vertices in a weighted graph. It depends on the following principle: the shortest path from any given vertex to another, must have at most $\textit{n - 1}$ edges (where \textit{n} is the total number of \textit{vertex}). That is because the \textit{shortest path} shouldn't have a cycle. The graph may contain negative weight edges. This algorithm is built upon the relaxation principle which means that it will be changing the shortest distance value from a less accurate to a more accurate one once it satisfies the need to do so\cite{ShortestPathAlgorithms}.
+	
+	\subsection{Complexities:}
+	\textit{$O(V \cdot E)$} in case \textit{$E=V^2$}
+
+	\subsection{Algorithm Steps}
+	\begin{enumerate}
+		\item Traverse in an outer loop from 0 to $\textit{n - 1}$
+		\item Loop over all edges
+		\item If the next node distance $>$ current node distance + edge weight:
+		\begin{enumerate}
+			\item Update the next node distance to current node distance + edge weight
+		\end{enumerate}
+	\end{enumerate}
+
+\section{Dijkstra's Algorithm}
+	\subsection{Explanation}
+	\par The more common Dijkstra's algorithm sets a node as the \textit{source} node and finds the shortest paths from said source to all other vertices in the graph by adding up their edges' weights and assigning said sum to the next node and so on\cite{ShortestPathAlgorithms}.
+	
+	\subsection{Complexities}
+	\textit{$O(V^2)$} but with min-priority queue it drops down to: \textit{$O(V+E \cdot log V)$}
+	\subsection{Algorithm Steps}
+	\begin{enumerate}
+		\item Set all vertices distances to $\infty$ except the source vertex, said vertex is set to $0$.
+		\item Push the source vertex in a min-priority queue in the form (distance, vertex), as the comparison in the min-priority queue will be according to vertices distances.
+		\item Pop the vertex with the minimum distance from the priority queue (at first the popped vertex $=$ the source).
+		\item Update the distances of the connected vertices to the popped vertex in case of ``current vertex distance $+$ edge weight $<$ next vertex distance''. 
+		\item Then push the vertex with the new distance to the priority queue.
+		\item If the popped vertex is visited before, just continue without using it.
+		Apply the same algorithm again until the priority queue is empty.
+	\end{enumerate}
+
+\section{Floyd–Warshall's Algorithm}
+	\subsection{Explanation}
+	\par A single execution of the algorithm will find the summed lengths of the shortest path between all pairs of vertices.
+	
+	\subsection{Complexities}
+	\par \textit{$O(V^3)$}
+	
+	\subsection{Algorithm Steps}
+	\begin{enumerate}
+		\item Initialize the shortest paths between any 2 vertices with $\infty$.
+		\item Find all pair shortest paths that use 0 intermediate vertices, then find the shortest paths that use 1 intermediate vertex and so on.. until using all \textit{N} vertices as intermediate nodes.
+		\item Minimize the shortest paths between any 2 pairs in the previous operation.
+		\item For any 2 vertices \textit{(i,j)}, one should actually minimize the distances between this pair using the first \textit{K} nodes, so the shortest path will be: \textit{$min(dist[i][k]+dist[k][j],dist[i][j])$.}
+	\end{enumerate}
+
+\part{Longest Path Algorithm}
+
+\section{... in a Directed Acyclic Graph \textit{(DAG)} }
+	\subsection{Explanation}
+	\par The longest path problem for a general problem is harder to find because is does not have an optimal solution. However, for a directed graph it does have an optimal solution and it is linear.
+	
+	\subsection{Complexities}
+	\par $O(m + n)$
+	
+	\subsection{Algorithm Steps}
+	\begin{enumerate}
+		\item Initialize $dist[] = {NINF, NINF,...}$ and $dist[s] = 0$ where $s$ is the source vertex and \textit{NINF} is $-\infty$
+		\item Create a topological order of all vertices.
+		\item Do the following for every vertex u in topological order.
+		\begin{enumerate}
+			\item Do the following for every adjacent vertex \textit{v} of \textit{u}
+			\begin{enumerate}
+				\item if $(dist[v] < dist[u] + weight(u,v))$
+				\begin{enumerate}
+					\item $dist[v] = dist[u] + weight(u,v)$
+				\end{enumerate}
+			\end{enumerate}
+		\end{enumerate}
+	\end{enumerate}
+
+
+\newpage
+\nocite{*}
+\printbibliography
+\end{document}
