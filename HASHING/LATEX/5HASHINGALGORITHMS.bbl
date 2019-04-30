@@ -19,6 +19,170 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{aumassonBLAKE2SimplerSmaller2013}{incollection}{}
+      \name{author}{4}{}{%
+        {{hash=d22970cff3847c99fe4c6359ab16f241}{%
+           family={Aumasson},
+           familyi={A\bibinitperiod},
+           given={Jean-Philippe},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=e308f5066e72ea6bac0690ff394b74c5}{%
+           family={Neves},
+           familyi={N\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=abd71820d1e83216b134cbbed4a43666}{%
+           family={{Wilcox-O'Hearn}},
+           familyi={W\bibinitperiod},
+           given={Zooko},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=5648044222541641dc1a36e87320c79c}{%
+           family={Winnerlein},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \name{editor}{18}{}{%
+        {{hash=d003d9a994005f480f7fa06dde74326e}{%
+           family={Hutchison},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=45496c6a7530cfbfb4f3218a2602b77e}{%
+           family={Kanade},
+           familyi={K\bibinitperiod},
+           given={Takeo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9dd3a56c94774f5880ca7475fdc308ea}{%
+           family={Kittler},
+           familyi={K\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fb11814963625d418100ec9ca3710333}{%
+           family={Kleinberg},
+           familyi={K\bibinitperiod},
+           given={Jon\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e07c4272d13053fc36d770d4735f2c14}{%
+           family={Mattern},
+           familyi={M\bibinitperiod},
+           given={Friedemann},
+           giveni={F\bibinitperiod}}}%
+        {{hash=47dbc192a926109dd86ea18b25249a93}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c6af39e79e88306281e6e0b0ccea956c}{%
+           family={Naor},
+           familyi={N\bibinitperiod},
+           given={Moni},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7d3ea70a5274b32c8a184dd4d844ee47}{%
+           family={Nierstrasz},
+           familyi={N\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6bcab2334dc65214139b0ad45fe8185e}{%
+           family={Pandu\bibnamedelima Rangan},
+           familyi={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=665b6687b4ed05721bf55d61032505ca}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8753fbfaaa4aa8a1195c657edc9daef4}{%
+           family={Sudan},
+           familyi={S\bibinitperiod},
+           given={Madhu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cd9aa5de7673e375889cc32997ef97df}{%
+           family={Terzopoulos},
+           familyi={T\bibinitperiod},
+           given={Demetri},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0e2feef9b3f0364b6e5bf7c63136056e}{%
+           family={Tygar},
+           familyi={T\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a4cf237a06b02ad7e7601b14b4d005be}{%
+           family={Vardi},
+           familyi={V\bibinitperiod},
+           given={Moshe\bibnamedelima Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=e47f9d085c16045a5911784850208ada}{%
+           family={Weikum},
+           familyi={W\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=049fcc87e8df9eb50c116989478ae123}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=19cbbd79dfea5fca14f15fee59d99895}{%
+           family={Samarati},
+           familyi={S\bibinitperiod},
+           given={Pierangela},
+           giveni={P\bibinitperiod}}}%
+        {{hash=269ca2371293161be4bc944482b509d7}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Jianying},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{1c1c38e9f666e10b56a68623353abe0e}
+      \strng{fullhash}{3f467e49ba97e0fa5e563ea7fe123fff}
+      \strng{bibnamehash}{3f467e49ba97e0fa5e563ea7fe123fff}
+      \strng{authorbibnamehash}{3f467e49ba97e0fa5e563ea7fe123fff}
+      \strng{authornamehash}{1c1c38e9f666e10b56a68623353abe0e}
+      \strng{authorfullhash}{3f467e49ba97e0fa5e563ea7fe123fff}
+      \strng{editorbibnamehash}{1560126f6611466815ae0d181faed95b}
+      \strng{editornamehash}{0ace6dc30af10bcf15accad9d4c4dc12}
+      \strng{editorfullhash}{1560126f6611466815ae0d181faed95b}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We present the cryptographic hash function BLAKE2, an improved version of the SHA-3 finalist BLAKE optimized for speed in software. Target applications include cloud storage, intrusion detection, or version control systems. BLAKE2 comes in two main flavors: BLAKE2b is optimized for 64-bit platforms, and BLAKE2s for smaller architectures. On 64-bit platforms, BLAKE2 is often faster than MD5, yet provides security similar to that of SHA-3. We specify parallel versions BLAKE2bp and BLAKE2sp that are up to 4 and 8 times faster, by taking advantage of SIMD and/or multiple cores. BLAKE2 has more benefits than just speed: BLAKE2 uses up to 32\% less RAM than BLAKE, and comes with a comprehensive tree-hashing mode as well as an efficient MAC mode.}
+      \field{booktitle}{Applied {{Cryptography}} and {{Network Security}}}
+      \field{isbn}{978-3-642-31283-0 978-3-642-31284-7}
+      \field{note}{\url{http://link.springer.com/10.1007/978-3-642-38980-1_8}}
+      \field{shorttitle}{{{BLAKE2}}}
+      \field{title}{{{BLAKE2}}: {{Simpler}}, {{Smaller}}, {{Fast}} as {{MD5}}}
+      \field{volume}{7341}
+      \field{year}{2013}
+      \field{pages}{119\bibrangedash 135}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-3-642-38980-1_8
+      \endverb
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/NE87QPUI/Aumasson et al. - 2013 - BLAKE2 Simpler, Smaller, Fast as MD5.pdf
+      \endverb
+    \endentry
+    \entry{BLAKE2}{misc}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://blake2.net/}}
+      \field{title}{{{BLAKE2}}}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/MZAFZUMB/blake2.net.html
+      \endverb
+    \endentry
     \entry{grimesWhyArenWe2018}{misc}{}
       \name{author}{1}{}{%
         {{hash=1231bc76d7a276e8fbf30e5ed3796b29}{%

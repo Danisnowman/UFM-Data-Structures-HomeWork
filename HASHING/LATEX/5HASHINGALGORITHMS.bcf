@@ -2008,6 +2008,9 @@
     <bcf:citekey order="10">KeccakTeam</bcf:citekey>
     <bcf:citekey order="11">grimesWhyArenWe2018</bcf:citekey>
     <bcf:citekey order="12">grimesWhyArenWe2018</bcf:citekey>
+    <bcf:citekey order="13">BLAKE2</bcf:citekey>
+    <bcf:citekey order="14">KeccakTeam</bcf:citekey>
+    <bcf:citekey order="15">aumassonBLAKE2SimplerSmaller2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

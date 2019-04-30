@@ -130,6 +130,30 @@ Currently there are no real usages of SHA-3 because of the performance issues th
 	\item In software, SHA-1 is three times faster and SHA-512 is two times faster than SHA-3 \cite{grimesWhyArenWe2018}
 \end{enumerate}
 
+
+\section{BLAKE2}
+BLAKE2 is a cryptographic hash function faster than MD5, SHA-1, SHA-2, and SHA-3, yet is at least as secure as the latest standard SHA-3. BLAKE2 has been adopted by many projects due to its high speed, security, and simplicity \cite{BLAKE2}. BLAKE2 comes in two flavors:
+\begin{enumerate}
+	\item BLAKE2b (for 64-bit platforms and produces a digest between 1 and 64 bytes)
+	\item BLAKE2s (for 8- to 32-bit platforms and produces a digest between 1 and 32 bytes)
+\end{enumerate}
+
+\subsection{Applications}
+Because of BLAKE2's performance, it is starting to be used the same way MD5 was used on things like data integrity while being much faster. 
+
+\par Other usages of BLAKE2 include: GNU Core Utilities, Argon2, Noise (the cryptographic protocol used in WhatsApp and WireGuard), RAR version 5 supports an optional 256-bit BLAKE2sp file checksum, libsync, the cryptocurrencies Zcash and Decred, FreeBSD Ports package managment uses BLAKE2b and IPFS.
+
+\subsection{Advantages}
+\begin{enumerate}
+	\item Open Source \cite{KeccakTeam}.
+	\item Faster than MD5, SHA-1, SHA-2, SHA-512, SHA3-256 and SHA3-512\cite{aumassonBLAKE2SimplerSmaller2013}.
+\end{enumerate}
+
+\subsection{Disadvantages}
+\begin{enumerate}
+	\item None.
+\end{enumerate}
+
 		
 \newpage
 \printbibliography
