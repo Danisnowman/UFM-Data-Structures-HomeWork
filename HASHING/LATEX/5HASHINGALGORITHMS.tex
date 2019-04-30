@@ -1,0 +1,137 @@
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[affil-it]{authblk}
+\usepackage[language=spanish,style=ieee,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\usepackage[pdftex]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=blue,
+	citecolor=blue,
+	pdftitle={Hashing Algorithms},
+	pdfauthor={Daniel E. Hernández}
+	bookmarks=true,
+	bookmarksopen=true,
+	pdfpagemode=FullScreen,
+}
+
+
+\addbibresource{hashing.bib}
+
+%opening
+\title{\textbf{5 Hashing Algorithms}}
+\author{Daniel E. Hernández - \texttt{20180077}}
+\affil{Facultad de Ciencias Económicas, Universidad Francisco Marroquín, Guatemala}
+\date{Abril 30, 2019}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\section{MD5, message-digest algorithm}
+Although originally it was designed as a cryptographic hash function, it has suffered extensive vulnerabilities. In the modern day, however, it is used as a checksum to verify data integrity.
+
+	\subsection{Applications}
+		As stated previously, it is used to check if the actual downloaded file is the same as the one the user wanted to download. More often than not file servers provide a md5sum for the user to compare. Most UNIX-based operating systems include MD5 sum utilities.
+		
+		\par One famous file server that provides md5sums is Android File Host, a free to use Android Developers' file server used mostly to host Android ROMs and gapps.
+	
+	\subsection{Advantages}
+	\begin{enumerate}
+		\item Performance: Md5 can hash around 400MB/s on a single core, while SHA-1 can only do 300MB/s and SHA-256 will bottleneck at 150MB/s\cite{HashMD5Considered}.
+		\item It is well known and widely used.
+		\item It comes preinstalled on most UNIX-based systems. 
+	\end{enumerate}
+
+
+	
+	\subsection{Disadvantages}
+	\begin{enumerate}
+		\item Vulnerable to malicious hash collisions.
+		\item Because of malicious hash collisions, attackers can fake SSL certificates \cite{MD5WeaknessAllows}. 
+	\end{enumerate}
+
+\section{SHA-1, Secure Hashing Algorithm 1}
+It takes an input and generates a 160=bit hash value, a message digest. Normally the message digest is rendered as a hexadecimal number 40 digits long. It was designed by the U.S. National Security Agency. 
+
+\subsection{Applications}
+SHA-1 is widely used in security applications and protocols including TLS and SSL, SSH, PGP, and others. SHA-1 is also used vastly on U.S. government applications. Normally it is used alongside other protocols and algorithms to ensure the safety of unclassified and sensitive documents and information. 
+
+\par SHA-1 is also used to check data integrity. Version control systems such as Git, Mercurial and Monotone use the algorithm as a data integrity checker. 
+
+\subsection{Advantages}
+\begin{enumerate}
+	\item Even though it's not as fast as MD5, it's still performs rather fast at 300MB/s \cite{HashMD5Considered}.
+	\item Because it was created by the NSA, many users have considered it as a secure algorithm resulting on a widely used hashing function. 
+	\item It too comes preinstalled on most UNIX-based systems.
+\end{enumerate}
+
+\subsection{Disadvantages}
+\begin{enumerate}
+	\item Vulnerable to malicious hash collisions as Google proved on the year 2017 \cite{stevensFirstCollisionFull2017}.
+	\item It is still used on GIT and as the proof cited above, a malicious attacker could \textit{in theory} perform an attack on having two different files, one backdoored and the original but with the same hash thus infecting the user who clones that repository. 
+\end{enumerate}
+
+\section{SHA-2, Secure Hashing Algorithm 2}
+It is a security cryptographic algorithm. It was created by the U.S. National Security Agency in collaboration with the National Institute of Science and Technology (NIST) as an upgrade from SHA-1. SHA-2 is a family of six different hash functions with different bit values:
+\begin{enumerate}
+	\item SHA2-224
+	\item SHA2-256
+	\item SHA2-284
+	\item SHA2-512
+	\item SHA2-512/224
+	\item SHA2-512/256
+\end{enumerate}
+
+\subsection{Applications}
+SHA-2 is widely used on security applications and protocols like TLS and SSL, PGP, SSH, S/MIME and IPsec. Debian, the Linux distribution, uses SHA-2 as part of the process to authenticate the software packages. It is also used on password hashing \cite{UnixCryptSHA256} and used on many cryptocurrencies like Bitcoin \cite{nakamotoBitcoinPeertoPeerElectronic}.
+
+\subsection{Advantages}
+\begin{enumerate}
+	\item Extremely difficult to find a hash collision in the wild as the possible combinations are $2^{256}$ for SHA-256 and so forth with the rest of the family functions.
+	\item SHA-2 has no vulnerabilities yet.
+	\item Quantum collision-resistant \cite{unruhCollapseBindingQuantumCommitments2016}. 
+	\item It too comes preinstalled on most UNIX-based systems.
+\end{enumerate}
+
+\subsection{Disadvantages}
+\begin{enumerate}
+	\item Even though the \textit{real} SHA-256 doesn't suffer from any vulnerabilities yet, one could start a collision attack on the first 31 rounds of SHA-256 \cite{mendelImprovingLocalCollisions2013}.
+\end{enumerate}
+
+\section{SHA-3, Secure Hashing Algorithm 3}
+SHA-3 is the result of an open call of NIST to the cryptographic community for hash function proposals. There was no restriction on who could participate, so submissions were open in the broadest possible sense. Every submitted candidate algorithm had to contain a description, a design rationale and preliminary cryptanalysis. The authors of the 64 submissions included the majority of people active in open symmetric crypto research at the time. NIST solicited the symmetric crypto community for performing and publishing research in cryptanalysis, implementations, proofs and comparisons of the candidates and based its decision on the results. After a three-round process involving hundreds of people in the community for several years, NIST finally announced that Keccak was selected to become the SHA-3 standard\cite{biKeccakTeambid}.
+\begin{enumerate}
+	\item SHA3-224
+	\item SHA-256
+	\item SHA3-384
+	\item SHA3-512
+	\item SHAKE128
+	\item SHAKE256
+\end{enumerate}
+
+\subsection{Applications}
+Currently there are no real usages of SHA-3 because of the performance issues that it faces and the --yet-- nonexistent need to migrate to it.
+
+\subsection{Advantages}
+\begin{enumerate}
+	\item Open Source \cite{KeccakTeam}.
+	\item In hardware it's faster than SHA-1 and SHA-2 \cite{grimesWhyArenWe2018}.
+\end{enumerate}
+
+\subsection{Disadvantages}
+\begin{enumerate}
+	\item In software, SHA-1 is three times faster and SHA-512 is two times faster than SHA-3 \cite{grimesWhyArenWe2018}
+\end{enumerate}
+
+		
+\newpage
+\printbibliography
+ 
+\end{document}

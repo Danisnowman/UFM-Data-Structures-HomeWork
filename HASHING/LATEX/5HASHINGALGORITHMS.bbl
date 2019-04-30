@@ -1,0 +1,407 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{grimesWhyArenWe2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1231bc76d7a276e8fbf30e5ed3796b29}{%
+           family={Grimes},
+           familyi={G\bibinitperiod},
+           given={Roger\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1231bc76d7a276e8fbf30e5ed3796b29}
+      \strng{fullhash}{1231bc76d7a276e8fbf30e5ed3796b29}
+      \strng{bibnamehash}{1231bc76d7a276e8fbf30e5ed3796b29}
+      \strng{authorbibnamehash}{1231bc76d7a276e8fbf30e5ed3796b29}
+      \strng{authornamehash}{1231bc76d7a276e8fbf30e5ed3796b29}
+      \strng{authorfullhash}{1231bc76d7a276e8fbf30e5ed3796b29}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Secure Hash Algorithm version 3 (SHA3) fixes flaws in the now-standard SHA2 cipher. Here's how to prepare for a migration to SHA3 when SHA2 is inevitably compromised.}
+      \field{howpublished}{\url{https://www.csoonline.com/article/3256088/why-arent-we-using-sha3.html}}
+      \field{journaltitle}{CSO Online}
+      \field{month}{2}
+      \field{title}{Why Aren't We Using {{SHA3}}?}
+      \field{year}{2018}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/6P45CA53/why-arent-we-using-sha3.html
+      \endverb
+    \endentry
+    \entry{HashMD5Considered}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://security.stackexchange.com/questions/19906/is-md5-considered-insecure}}
+      \field{journaltitle}{Information Security Stack Exchange}
+      \field{title}{Hash - {{Is MD5}} Considered Insecure?}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/X2T3AZ56/is-md5-considered-insecure.html
+      \endverb
+    \endentry
+    \entry{KeccakTeam}{misc}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://keccak.team/}}
+      \field{title}{Keccak {{Team}}}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/WREEKRA7/keccak.team.html
+      \endverb
+    \endentry
+    \entry{MD5WeaknessAllows}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.sslshopper.com/article-md5-weakness-allows-fake-ssl-certificates-to-be-created.html}}
+      \field{title}{{{MD5 Weakness Allows Fake SSL Certificates To Be Created}}}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/8CJL9JA8/article-md5-weakness-allows-fake-ssl-certificates-to-be-created.html
+      \endverb
+    \endentry
+    \entry{mendelImprovingLocalCollisions2013}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=e320abcdc96582fe2b9956c4e9dd4bc9}{%
+           family={Mendel},
+           familyi={M\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8e637fcb61f31ea2528cf8919e40c95b}{%
+           family={Nad},
+           familyi={N\bibinitperiod},
+           given={Tomislav},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3852585e0cbfa37f9a60fa7dafcc4c1c}{%
+           family={Schläffer},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{17}{}{%
+        {{hash=d003d9a994005f480f7fa06dde74326e}{%
+           family={Hutchison},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=45496c6a7530cfbfb4f3218a2602b77e}{%
+           family={Kanade},
+           familyi={K\bibinitperiod},
+           given={Takeo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9dd3a56c94774f5880ca7475fdc308ea}{%
+           family={Kittler},
+           familyi={K\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fb11814963625d418100ec9ca3710333}{%
+           family={Kleinberg},
+           familyi={K\bibinitperiod},
+           given={Jon\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e07c4272d13053fc36d770d4735f2c14}{%
+           family={Mattern},
+           familyi={M\bibinitperiod},
+           given={Friedemann},
+           giveni={F\bibinitperiod}}}%
+        {{hash=47dbc192a926109dd86ea18b25249a93}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c6af39e79e88306281e6e0b0ccea956c}{%
+           family={Naor},
+           familyi={N\bibinitperiod},
+           given={Moni},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7d3ea70a5274b32c8a184dd4d844ee47}{%
+           family={Nierstrasz},
+           familyi={N\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6bcab2334dc65214139b0ad45fe8185e}{%
+           family={Pandu\bibnamedelima Rangan},
+           familyi={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=665b6687b4ed05721bf55d61032505ca}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8753fbfaaa4aa8a1195c657edc9daef4}{%
+           family={Sudan},
+           familyi={S\bibinitperiod},
+           given={Madhu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cd9aa5de7673e375889cc32997ef97df}{%
+           family={Terzopoulos},
+           familyi={T\bibinitperiod},
+           given={Demetri},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0e2feef9b3f0364b6e5bf7c63136056e}{%
+           family={Tygar},
+           familyi={T\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a4cf237a06b02ad7e7601b14b4d005be}{%
+           family={Vardi},
+           familyi={V\bibinitperiod},
+           given={Moshe\bibnamedelima Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=e47f9d085c16045a5911784850208ada}{%
+           family={Weikum},
+           familyi={W\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=26f717fe7a7a054c169842e802060843}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=500e4d6cc852eac325b85a406d5ca4d9}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Phong\bibnamedelima Q.},
+           giveni={P\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{2b8faa932cbd3c3ec237d336f69d64d3}
+      \strng{fullhash}{2b8faa932cbd3c3ec237d336f69d64d3}
+      \strng{bibnamehash}{2b8faa932cbd3c3ec237d336f69d64d3}
+      \strng{authorbibnamehash}{2b8faa932cbd3c3ec237d336f69d64d3}
+      \strng{authornamehash}{2b8faa932cbd3c3ec237d336f69d64d3}
+      \strng{authorfullhash}{2b8faa932cbd3c3ec237d336f69d64d3}
+      \strng{editorbibnamehash}{e30c836951e8498102ddd97e29d9c50b}
+      \strng{editornamehash}{0ace6dc30af10bcf15accad9d4c4dc12}
+      \strng{editorfullhash}{e30c836951e8498102ddd97e29d9c50b}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this paper, we focus on the construction of semi-free-start collisions for SHA-256, and show how to turn them into collisions. We present a collision attack on 28 steps of the hash function with practical complexity. Using a two-block approach we are able to turn a semi-freestart collision into a collision for 31 steps with a complexity of at most 265.5. The main improvement of our work is to extend the size of the local collisions used in these attacks. To construct differential characteristics and confirming message pairs for longer local collisions, we had to improve the search strategy of our automated search tool. To test the limits of our techniques we present a semi-free-start collision for 38 steps.}
+      \field{booktitle}{Advances in {{Cryptology}} –{} {{EUROCRYPT}} 2013}
+      \field{isbn}{978-3-642-38347-2 978-3-642-38348-9}
+      \field{note}{\url{http://link.springer.com/10.1007/978-3-642-38348-9_16}}
+      \field{shorttitle}{Improving {{Local Collisions}}}
+      \field{title}{Improving {{Local Collisions}}: {{New Attacks}} on {{Reduced SHA}}-256}
+      \field{volume}{7881}
+      \field{year}{2013}
+      \field{pages}{262\bibrangedash 278}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-3-642-38348-9_16
+      \endverb
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/IRW7VK8R/Mendel et al. - 2013 - Improving Local Collisions New Attacks on Reduced.pdf
+      \endverb
+    \endentry
+    \entry{nakamotoBitcoinPeertoPeerElectronic}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1977190f018b398e43ede3de043de8ea}{%
+           family={Nakamoto},
+           familyi={N\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
+      \strng{bibnamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorbibnamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.}
+      \field{title}{Bitcoin: {{A Peer}}-to-{{Peer Electronic Cash System}}}
+      \field{pages}{9}
+      \range{pages}{1}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/7UFU2DNB/Nakamoto - Bitcoin A Peer-to-Peer Electronic Cash System.pdf
+      \endverb
+    \endentry
+    \entry{stevensFirstCollisionFull2017}{incollection}{}
+      \name{author}{5}{}{%
+        {{hash=ee5d87f0f2214cb623fe19219fb17364}{%
+           family={Stevens},
+           familyi={S\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=59c83757800173e97cfcd3bffbb592fd}{%
+           family={Bursztein},
+           familyi={B\bibinitperiod},
+           given={Elie},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f59d7ceb937cdb0029c4453fc0ead8e6}{%
+           family={Karpman},
+           familyi={K\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cdbde6c51f98d2589f64af97b2596d43}{%
+           family={Albertini},
+           familyi={A\bibinitperiod},
+           given={Ange},
+           giveni={A\bibinitperiod}}}%
+        {{hash=be2c2381b51a0ba2acf1a779842b17b5}{%
+           family={Markov},
+           familyi={M\bibinitperiod},
+           given={Yarik},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=85053e14c4a72772970b91a572b9b9c1}{%
+           family={Katz},
+           familyi={K\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8e72ae85d346fe6dea613a2090664c28}{%
+           family={Shacham},
+           familyi={S\bibinitperiod},
+           given={Hovav},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{4b0c7586406e5836ea945f4f12370668}
+      \strng{fullhash}{d0329e885845b7ca5a0aad39e18ee12b}
+      \strng{bibnamehash}{d0329e885845b7ca5a0aad39e18ee12b}
+      \strng{authorbibnamehash}{d0329e885845b7ca5a0aad39e18ee12b}
+      \strng{authornamehash}{4b0c7586406e5836ea945f4f12370668}
+      \strng{authorfullhash}{d0329e885845b7ca5a0aad39e18ee12b}
+      \strng{editorbibnamehash}{59033e31037da4e0bf33ca8382b97a0d}
+      \strng{editornamehash}{59033e31037da4e0bf33ca8382b97a0d}
+      \strng{editorfullhash}{59033e31037da4e0bf33ca8382b97a0d}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{SHA-1 is a widely used 1995 NIST cryptographic hash function standard that was officially deprecated by NIST in 2011 due to fundamental security weaknesses demonstrated in various analyses and theoretical attacks.}
+      \field{booktitle}{Advances in {{Cryptology}} –{} {{CRYPTO}} 2017}
+      \field{isbn}{978-3-319-63687-0 978-3-319-63688-7}
+      \field{note}{\url{http://link.springer.com/10.1007/978-3-319-63688-7_19}}
+      \field{title}{The {{First Collision}} for {{Full SHA}}-1}
+      \field{volume}{10401}
+      \field{year}{2017}
+      \field{pages}{570\bibrangedash 596}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/978-3-319-63688-7_19
+      \endverb
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/8WIBFSPS/Stevens et al. - 2017 - The First Collision for Full SHA-1.pdf
+      \endverb
+    \endentry
+    \entry{UnixCryptSHA256}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://akkadia.org/drepper/sha-crypt.html}}
+      \field{title}{Unix Crypt with {{SHA}}-256/512}
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/32KR7JQD/sha-crypt.html
+      \endverb
+    \endentry
+    \entry{unruhCollapseBindingQuantumCommitments2016}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=8a56d1103628eb2468b4302fe42b4baa}{%
+           family={Unruh},
+           familyi={U\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=6bdc4346455a7e20ad7e61cd19bdfcd3}{%
+           family={Cheon},
+           familyi={C\bibinitperiod},
+           given={Jung\bibnamedelima Hee},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=8cf4d550b9608037617456afc72747a2}{%
+           family={Takagi},
+           familyi={T\bibinitperiod},
+           given={Tsuyoshi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{8a56d1103628eb2468b4302fe42b4baa}
+      \strng{fullhash}{8a56d1103628eb2468b4302fe42b4baa}
+      \strng{bibnamehash}{8a56d1103628eb2468b4302fe42b4baa}
+      \strng{authorbibnamehash}{8a56d1103628eb2468b4302fe42b4baa}
+      \strng{authornamehash}{8a56d1103628eb2468b4302fe42b4baa}
+      \strng{authorfullhash}{8a56d1103628eb2468b4302fe42b4baa}
+      \strng{editorbibnamehash}{aeee4c5068769eca899cd289fc2aa6a7}
+      \strng{editornamehash}{aeee4c5068769eca899cd289fc2aa6a7}
+      \strng{editorfullhash}{aeee4c5068769eca899cd289fc2aa6a7}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We construct collapse-binding commitments in the standard model. Collapse-binding commitments were introduced in (Unruh, Eurocrypt 2016) to model the computational-binding property of commitments against quantum adversaries, but only constructions in the random oracle model were known.}
+      \field{booktitle}{Advances in {{Cryptology}} –{} {{ASIACRYPT}} 2016}
+      \field{isbn}{978-3-662-53889-0 978-3-662-53890-6}
+      \field{note}{\url{http://link.springer.com/10.1007/978-3-662-53890-6_6}}
+      \field{title}{Collapse-{{Binding Quantum Commitments Without Random Oracles}}}
+      \field{volume}{10032}
+      \field{year}{2016}
+      \field{pages}{166\bibrangedash 195}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1007/978-3-662-53890-6_6
+      \endverb
+      \verb{file}
+      \verb /Users/danisnowman/Zotero/storage/NB6HJPQ7/Unruh - 2016 - Collapse-Binding Quantum Commitments Without Rando.pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{biKeccakTeambid}
+\endrefsection
+\endinput
+
